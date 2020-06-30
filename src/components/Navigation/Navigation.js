@@ -27,7 +27,7 @@ const Navigation = (props) => {
                             <NavLink href="#About" onClick={toggleNavbar}>About</NavLink>
                         </NavItem>
                         <NavItem>
-                            <NavLink href="#Experiance" onClick={toggleNavbar}>Experiance</NavLink>
+                            <NavLink href="#Experiance" onClick={toggleNavbar}>Experience</NavLink>
                         </NavItem>
                         <NavItem>
                             <NavLink href="#Education" onClick={toggleNavbar}>Education</NavLink>

@@ -24,7 +24,7 @@ class ExperianceBuilder extends Component {
                 </Container>
                 <Container>
                     <Row className={[classes.heading, 'justify-content-end'].join(' ')} noGutters>
-                        <p>Experiance</p>
+                        <p>Experience</p>
                     </Row>
                     <Row className={["justify-content-start", classes.Content, "align-items-center"].join(' ')}>
 
