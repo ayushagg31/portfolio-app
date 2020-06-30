@@ -1,0 +1,64 @@
+@import '../../main/vars.css';
+
+.Footer {
+    bottom: 0;
+    font-size: 12px;
+    /* margin-left: 15px; */
+    color: #414141;
+    font-weight: bold;
+    box-sizing: border-box;
+    /* border: 1px solid red;  
+    background-color: red; */
+    opacity: 1;
+    width: 100%;
+    /* height: 10vh; */
+
+}
+.pulse {
+    color: #E90606;
+    margin: 0 3px;
+    font-size: 14px;
+    animation: pound .35s infinite alternate;
+    -webkit-animation: pound .35s infinite ;
+}
+
+.title {
+  font-size: 13px;
+}
+
+.title:hover{
+  color: var(--hov-color)
+}
+
+@-webkit-keyframes pound{
+  to{
+    transform: scale(1.1)}
+}
+
+
+@keyframes pound{
+  to{
+    transform: scale(1.1)}
+  }
+
+
+  .margin{
+    margin-top: 15vh;
+     margin-bottom: 2vh;
+  }
+
+
+  .icons a{
+    color: #414141;
+    margin-left: 0.5rem;
+    margin-right: 0.5rem;
+}
+
+.Footer a{
+    color: #414141;
+    text-decoration: none;
+}
+
+.Footer a:hover{
+    color: var(--hov-color)   
+}

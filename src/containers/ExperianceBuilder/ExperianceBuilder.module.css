@@ -1,0 +1,38 @@
+@import '../../main/vars.css';
+
+
+.Content{
+    align-content: center;
+    text-align: center;
+    display: flex;
+    /* margin-top: 30vh; */
+}
+
+.heading{
+    /* text-align: center; */
+    /* margin-bottom: 55px; */
+    margin-right: -3%;
+    margin-bottom: -7.85%;
+    z-index: -1;
+    font-size: 5rem;
+    /* z-index: ; */
+    font-weight: bold;
+    color: #2D2A2A;
+    transition: 0.3s ease-in-out;
+}
+
+.ExperianceBuilder:hover .heading{
+    /* .heading{ */
+    color: var(--hov-color);   
+}
+
+
+@media only screen and (max-width: 992px) {
+
+    .heading {
+        margin: 0;
+        z-index: 0;
+        font-size: 2.5rem;
+        
+    }
+}

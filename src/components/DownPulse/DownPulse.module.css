@@ -1,0 +1,23 @@
+.DownPulse {
+    /* position: absolute; */
+    /* bottom: 5vh; */
+    /* width: 100%; */
+    position: absolute;
+    top: 85vh;
+    left: 50%; 
+    /* margin-to    */
+    overflow: hidden;
+    text-align: center;
+    /* top: 0; */
+ 
+}
+
+.DownPulse:hover{
+    cursor: pointer;
+}
+
+@media only screen and (max-width: 1024px) {
+    .DownPulse{
+        display: none;
+    }
+}

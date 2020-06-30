@@ -1,0 +1,18 @@
+/* .Toggles{
+    margin-top: 110px;
+    margin-left: 150px;
+    margin-right: 150px;
+} */
+
+/* .Toggles {
+    margin-top: 40%;
+} */
+
+@media only screen and (max-width: 992px) {
+    .Toggles{
+        display: flex;
+        margin-left: -5rem;
+        /* margin-left: 25%;
+        margin-right: 25% */
+    }
+}

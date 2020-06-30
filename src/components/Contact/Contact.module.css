@@ -1,0 +1,123 @@
+@import '../../main/vars.css';
+
+.shake {
+    animation: shake 0.82s cubic-bezier(.36,.07,.19,.97) both;
+    transform: translate3d(0, 0, 0);
+    backface-visibility: hidden;
+    /* perspective: 1000px; */
+    border-color: red;
+  }
+  
+  @keyframes shake {
+    10%, 90% {
+      transform: translate3d(-2px, 0, 0);
+    }
+    
+    20%, 80% {
+      transform: translate3d(2px, 0, 0);
+    }
+  
+    30%, 50%, 70% {
+      transform: translate3d(-4px, 0, 0);
+    }
+  
+    40%, 60% {
+      transform: translate3d(4px, 0, 0);
+    }
+  }
+
+  .textArea {
+    /* padding: 20px;  */
+    max-width: 20rem;
+    height: 200px;
+    overflow: auto;
+    resize: none;
+    margin-bottom: 20px;
+    padding:1.5rem;
+    border-radius: 1.5rem;
+    background-color: black;
+    color:#dddddd;  
+  
+   /* border-color: gray; */
+
+}
+
+.border:focus {
+  outline: none;
+}
+
+.textArea:focus{
+  outline: none;
+}
+
+.border {
+  border-radius: 1.5rem;
+  /* border-color: gray; */
+  height: 3rem;
+  max-width: 20rem;
+  padding: 2rem;
+  margin-bottom: 20px;
+  background-color: black;
+  color: #dddddd
+}
+
+.submitButton {
+  border-radius: 1.5rem;
+  max-width: 13rem;
+  min-width: 5rem;
+  text-align: center;
+  float: left;
+  height: 3rem;
+  font-weight: bold;
+  color: #dddddd;
+  background-color: black;
+  vertical-align: 'middle'
+  
+}
+
+.submitButton:hover {
+  color: var(--hov-color)
+}
+
+.submitButton:focus{
+  outline: none;
+}
+
+input::placeholder {
+  font-family: sans-serif;
+}
+
+textarea::placeholder {
+  font-family: sans-serif;
+}
+
+
+.heading{
+  /* text-align: center; */
+  /* margin-bottom: 55px; */
+  /* margin-right: -3%; */
+  margin-left: -4.55%;
+  margin-bottom: -4.55%;
+  z-index: -1;
+  font-size: 5rem;
+  /* z-index: ; */
+  font-weight: bold;
+  color: #2D2A2A;
+  transition: 0.3s ease-in-out;
+}
+
+.Contact:hover .heading{
+  /* .heading{ */
+  color: var(--hov-color);   
+}
+
+
+@media only screen and (max-width: 992px) {
+
+  .heading {
+      margin: 0;
+      z-index: 0;
+      font-size: 2.5rem;
+  }
+}
+

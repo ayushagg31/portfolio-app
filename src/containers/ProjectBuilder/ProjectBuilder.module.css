@@ -1,0 +1,34 @@
+@import '../../main/vars.css';
+
+.ProjectBuilder {
+    /* margin-bottom: 100px; */
+    z-index: 5;
+}
+
+
+.heading{
+    margin-left: -3%;
+    margin-bottom: -9.85%;
+    z-index: -1;
+    font-size: 5rem;
+    font-weight: bold;
+    color: #2D2A2A;
+    transition: 0.3s ease-in-out;
+}
+
+.ProjectBuilder:hover .heading{
+    /* .heading{ */
+    color: var(--hov-color);   
+}
+
+
+@media only screen and (max-width: 992px) {
+
+
+    .heading {
+        margin: 0;
+        z-index: 0;
+        font-size: 2.5rem;
+    }
+
+}

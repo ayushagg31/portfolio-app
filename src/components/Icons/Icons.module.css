@@ -1,0 +1,35 @@
+@import '../../main/vars.css';
+
+.Icons {
+    /* position: absolute; */
+    display: flex;
+    animation-name: example;
+    animation-duration: 4s; 
+    /* margin-top: 50%; */
+    /* width: 100%; */
+    /* bottom: 0; */
+    margin-top: 10%;
+    /* justify-content: space-between; */
+    /* text-align: center; */
+    /* margin-left: 25%; */
+    
+
+}
+.Icons a{
+    color: var(--text-color);
+    /* margin-right: 60px; */
+    animation-name: example;
+    animation-duration: 2s; 
+}
+  
+ @keyframes example {
+    from {color:black;}
+    to {color: white;}
+ }
+
+ .Icons a:hover {
+    color: var(--hov-color);
+}
+
+
+

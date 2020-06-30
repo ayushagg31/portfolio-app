@@ -1,0 +1,26 @@
+@import '../../../../main/vars.css';
+
+.button{
+  margin-left: 2rem;
+  margin-bottom: 1rem;
+  display: table;
+  color: var(--text-color);
+  background: transparent;
+  border-color: transparent;
+  font-size: 1.43rem;
+  font-family: var(--text-font-family);
+}
+
+.button:hover, .button:focus{
+  color: var(--hov-color);
+  transition: 0.26s ease-in-out;
+  box-shadow: -3px 0 var(--hov-color);
+  outline: none;
+}
+
+
+@media only screen and (max-width: 992px) {
+  .button:hover, .button:focus{
+    box-shadow: 0 3px var(--hov-color);
+  }
+}

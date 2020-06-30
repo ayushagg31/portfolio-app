@@ -1,0 +1,16 @@
+@import '../../../main/vars.css';
+
+.Icon {
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+.tooltiptext {
+    display: none;
+}
+  
+/* @media only screen and (max-width: 600px) {
+    .Intro{
+        margin-left: 0rem;
+        margin-right: 0rem;
+    }
+} */

@@ -1,0 +1,75 @@
+@import '../../main/vars.css';
+
+.button {
+    box-sizing: border-box;
+    border: 1px solid #212F3D;
+    border-radius: 0.25rem;
+    background:transparent;
+    opacity: 0.8;
+    color: var(--text-color);
+    display: flex;
+    vertical-align: middle;
+    padding-left: 1.25rem;
+    padding-top: 0.75rem;
+    padding-bottom: 0.75rem;
+    margin-top: 0.75rem;
+    
+}
+
+.button:hover {
+    border-color: #7D8185;
+    opacity: 1;
+    /* cursor: none; */
+
+}
+.button p{
+    margin: 0 auto;
+    margin-left: 0.55rem;
+    width: 100%;
+}
+
+.button img {
+    margin: auto 0;
+}
+
+.title{
+    font-weight: bold;
+    font-size: 0.75rem;
+    
+}
+
+.info {
+    font-size: 0.65rem;
+}
+
+
+.heading{
+    /* text-align: center; */
+    /* margin-bottom: 55px; */
+    /* margin-right: -3%; */
+    margin-right: -4%;
+    margin-bottom: -5.85%;
+    z-index: -1;
+    font-size: 5rem;
+    /* z-index: ; */
+    font-weight: bold;
+    color: #2D2A2A;
+    transition: 0.3s ease-in-out;
+}
+
+.Skills:hover .heading{
+    /* .heading{ */
+    color: var(--hov-color);   
+}
+
+
+@media only screen and (max-width: 992px) {
+
+    .heading {
+        margin: 0;
+        z-index: 0;
+        font-size: 2.5rem;
+    }
+}
+
+
