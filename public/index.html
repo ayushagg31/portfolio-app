@@ -16,6 +16,10 @@
   <div id="particles-js"></div>
   <div id="root"></div>
   </div>
+
+  <script>
+    document.documentElement.style.setProperty('--vh', `${window.innerHeight / 100}px`);
+  </script>
   <script src="https://cdn.jsdelivr.net/npm/particles.js@2.0.0/particles.min.js"></script>
   <script>
     particlesJS.load('particles-js', 'particles.json', function () {

@@ -11,12 +11,10 @@ import Contact from './components/Contact/Contact'
 import Footer from './components/Footer/Footer'
 import './preloader.scss'
 
-
 class app extends Component {
   state = {
     loading: true
   }
-
 
   componentDidMount = async () => {
     this.loaderTimeOut().then(() => {
@@ -25,7 +23,6 @@ class app extends Component {
       })
     })
   }
-
 
   render() {
     const { loading } = this.state
