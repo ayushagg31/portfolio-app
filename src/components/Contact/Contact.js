@@ -115,7 +115,7 @@ class Contact extends Component {
         event.preventDefault();
         if (!this.checkValidation()) {
             this.playButtonEvent('Sending....', true, <IoIosTime size={20} />)
-            axios.post('http://localhost:8080/api/email', this.state)
+            axios.post('api/sendmail', this.state)
                 .then(() => {
                     this.resetButtonEvent()
                     this.handleSuccessEvent()
