@@ -10,8 +10,7 @@ const Hsbc = {
     logo: HSBClogo,
     duration: '(July \'19 - current)',
     alt: 'Hsbc',
-    width: '60',
-    height: '30'
+    specialization:'...'
 }
 
 const Wipro = {
@@ -22,7 +21,8 @@ const Wipro = {
     duration: '(May \'18 - July \'18)',
     alt: 'Wipro',
     width: '60',
-    height: '40'
+    height: '40',
+    specialization:'...'
 }
 
 const UG = {
@@ -38,7 +38,7 @@ const UG = {
 }
 
 const HS = {
-    title: 'MLS DAV Public School',
+    title: 'M.L.S. D.A.V. Public School',
     location: 'Narnaul, Haryana, India',
     duration: '(2010 - 2014)',
     logo: DAV,
