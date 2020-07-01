@@ -36,6 +36,7 @@
   
   .Info:hover {
     opacity: 1;
+    background-color:#100c08;
   }
   
   /* .Info:hover::after {

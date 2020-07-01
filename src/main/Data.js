@@ -9,7 +9,9 @@ const Hsbc = {
     location: 'Pune, Maharastra, India',
     logo: HSBClogo,
     duration: '(July \'19 - current)',
-    alt: 'Hsbc'
+    alt: 'Hsbc',
+    width: '60',
+    height: '30'
 }
 
 const Wipro = {
@@ -18,7 +20,9 @@ const Wipro = {
     location: 'Bengaluru, Karnataka, India',
     logo: Wiprologo,
     duration: '(May \'18 - July \'18)',
-    alt: 'Wipro'
+    alt: 'Wipro',
+    width: '60',
+    height: '40'
 }
 
 const UG = {
@@ -27,7 +31,9 @@ const UG = {
     duration: '(2015 - 2019)',
     logo: NIT,
     designation: 'Bachelor\'s Degree in Computer Science & Engineering',
-    alt: 'NIT'
+    alt: 'NIT',
+    width: '60',
+    height: '50'
 
 }
 
@@ -37,7 +43,9 @@ const HS = {
     duration: '(2010 - 2014)',
     logo: DAV,
     designation: 'High School, CBSE',
-    alt: 'DAV'
+    alt: 'DAV',
+    width: '60',
+    height: '50'
 }
 
 const data = {

@@ -7,7 +7,7 @@ import { MdLocationOn } from "react-icons/md"
 const info = (props) => {
     return (
         <div className={classes.Info}>
-            <img src={data[props.org].logo} alt={data[props.org].alt} width="80" height="70" />
+            <img src={data[props.org].logo} alt={data[props.org].alt} width={data[props.org].width} height={data[props.org].height} />
             <span>
                 <h3>{data[props.org].title}</h3>
                 <p>{data[props.org].duration}</p>
@@ -18,7 +18,7 @@ const info = (props) => {
                 <p>{data[props.org].location}</p>
             </div>
 
-            
+
 
         </div>
     )
