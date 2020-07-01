@@ -13,7 +13,7 @@ import './preloader.scss'
 
 class app extends Component {
   state = {
-    loading: false
+    loading: true
   }
 
   componentDidMount = async () => {
