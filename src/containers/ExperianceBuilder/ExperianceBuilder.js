@@ -33,8 +33,6 @@ class ExperianceBuilder extends Component {
                         <Col xs="12" lg="8">
                             <Info org={this.state.org} />
                         </Col>
-                        <Col>
-                        </Col>
                     </Row>
                 </Container>
             </div>

@@ -5,7 +5,8 @@
     align-content: center;
     text-align: center;
     display: flex;
-    margin-left: 2.5rem;
+    /* margin-left: 2.5rem; */
+    /* border: 0.05px solid white; */
     
 }
 
@@ -17,6 +18,8 @@
     font-weight: bold;
     color: #2D2A2A;
     transition: 0.3s ease-in-out;
+    /* border: 0.05px solid white; */
+
 }
 
 .ExperianceBuilder:hover .heading{
@@ -31,7 +34,7 @@
         z-index: 0;
         font-size: 2.5rem;
     }
-    .Content{
+    /* .Content{
         margin-left: 0;
-    }
+    } */
 }

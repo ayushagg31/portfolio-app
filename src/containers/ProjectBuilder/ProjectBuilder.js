@@ -3,11 +3,12 @@ import classes from './ProjectBuilder.module.css'
 import Projects from '../../components/Projects/Projects'
 import ProjectScroll from '../../components/ProjectScroll/ProjectScroll'
 import { Container, Row } from 'reactstrap'
+import { Project, Projectscroll } from '../../main/Data'
 
 const projectBuilder = (props) => {
     return (
         <div className={classes.ProjectBuilder} id="Projects">
-            <Container style={{ height: '50px'}} >
+            <Container style={{ height: '50px' }} >
                 <div></div>
             </Container>
             <Container>
@@ -15,9 +16,10 @@ const projectBuilder = (props) => {
                     <p>Projects</p>
                 </Row>
                 <Row>
-                    <Projects animation="fade-right" />
-                    <Projects animation="fade-right" />
-                    <Projects animation="fade-right" />
+                    {
+                        Object.keys(Project).map(title => <Projects title={title} animation="fade-right" />)
+                    }
+
                     <ProjectScroll animation="none" />
                 </Row>
             </Container>

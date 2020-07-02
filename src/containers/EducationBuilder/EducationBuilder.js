@@ -36,13 +36,6 @@ class ExperianceBuilder extends Component {
                     </Row>
                 </Container>
             </div>
-            // <div className={classes.ExperianceBuilder}>
-            //     {/* <h1 className={classes.heading} id={"Experiance"}>Experiance</h1> */}
-            //     <div className={classes.Content}>
-            //         <Toggles clicked={this.clickHandler} />
-            //         <Info org={this.state.org} />
-            //     </div>
-            // </div>
         )
     }
 }

@@ -3,186 +3,68 @@ import classes from './ProjectScroll.module.css'
 import { Container, Row, Col } from 'reactstrap'
 import { AiFillGithub } from 'react-icons/ai'
 import { FaFilePowerpoint, FaEye } from 'react-icons/fa'
+import { Projectscroll } from '../../main/Data'
 import AOS from 'aos'
 import 'aos/dist/aos.css'
 
+const icon = (id) => {
+
+    if (id === 'github')
+        return <AiFillGithub />
+    else if (id === 'powerpoint')
+        return <FaFilePowerpoint />
+    else
+        return <FaEye />
+
+}
+
 const projectScroll = (props) => {
     AOS.init()
+    const projects = Object.keys(Projectscroll).map(project => {
+        return (
+            <Col xs="12" md="6" className={[classes.col, classes.Red, classes.Projects].join(' ')}
+                header={Projectscroll[project].title}
+                data-aos={props.animation}
+                data-aos-duration="900"
+                data-aos-offset="400"
+                data-aos-delay="50"
+                data-aos-easing="ease">
+                <Container className={classes.Content}>
+                    <Row style={{ padding: '0.3rem' }}>
+                        <h3>{Projectscroll[project].title}</h3>
+                    </Row>
+                    <Row>
+                        <p>{Projectscroll[project].description}</p>
+                    </Row>
+                    <Row className={classes.tags}>
+                        {Projectscroll[project].tags.map(tag =>
+                            <p>{tag}</p>
+                        )}
+                    </Row>
+                    <Row>
+                        <Col className={classes.icons}>
+                            {Object.keys(Projectscroll[project].links).map(id => {
+                                return (
+                                    <a rel="noopener noreferrer" target="_blank"
+                                        href={Projectscroll[project].links[id]}>
+                                        {icon(id)}
+                                    </a>
+                                )
+                            })}
+                        </Col>
+                    </Row>
+                </Container>
+            </Col>
+        )
+    })
+
+
     return (
         <Container>
             <Row className={classes.row}>
-                <Col xs="12" md="6" className={[classes.col, classes.Red, classes.Projects].join(' ')}
-                    header={"Title"}
-                    data-aos={props.animation}
-                    data-aos-duration="900"
-                    data-aos-offset="400"
-                    data-aos-delay="50"
-                    data-aos-easing="ease">
-                    <Container className={classes.Content}>
-                        <Row style={{ padding: '0.3rem' }}>
-                            <h3>Project Title</h3>
-                        </Row>
-                        <Row>
-                            <p> Chuck Norris doesn't churn butter. He roundhouse kicks the cows and the butter comes straight out. When the Boogeyman goes to sleep every night, he checks his closet for Chuck Norris CNN was originally created as the "Chuck Norris Network" to update Americans with on-the-spot ass kicking in real-time</p>
-                        </Row>
-                        <Row className={classes.tags}>
-                            <p>HTML</p>
-                            <p>ReactJS</p>
-                            <p>CSS</p>
-                            <p>NodeJS</p>
-
-                        </Row>
-                        <Row>
-                            <Col className={classes.icons}>
-                                <a rel={"noopener noreferrer"} target={"_blank"} href="\"
-                                ><AiFillGithub /></a>
-                                <a rel={"noopener noreferrer"} target={"_blank"} href="\"
-                                ><FaFilePowerpoint /></a>
-                                <a rel={"noopener noreferrer"} target={"_blank"} href="\"
-                                ><FaEye /></a>
-                            </Col>
-                        </Row>
-                    </Container>
-
-                </Col>
-                <Col xs="12" md="6" className={[classes.col, classes.Red, classes.Projects].join(' ')}
-                    header={"Title"}
-                    data-aos={props.animation}
-                    data-aos-duration="900"
-                    data-aos-offset="400"
-                    data-aos-delay="50"
-                    data-aos-easing="ease">
-                    <Container className={classes.Content}>
-                        <Row style={{ padding: '0.3rem' }}>
-                            <h3>Project Title</h3>
-                        </Row>
-                        <Row>
-                            <p> Chuck Norris doesn't churn butter. He roundhouse kicks the cows and the butter comes straight out. When the Boogeyman goes to sleep every night, he checks his closet for Chuck Norris CNN was originally created as the "Chuck Norris Network" to update Americans with on-the-spot ass kicking in real-time</p>
-                        </Row>
-                        <Row className={classes.tags}>
-                            <p>HTML</p>
-                            <p>ReactJS</p>
-                            <p>CSS</p>
-                            <p>NodeJS</p>
-
-                        </Row>
-                        <Row>
-                            <Col className={classes.icons}>
-                                <a rel={"noopener noreferrer"} target={"_blank"} href="\"
-                                ><AiFillGithub /></a>
-                                <a rel={"noopener noreferrer"} target={"_blank"} href="\"
-                                ><FaFilePowerpoint /></a>
-                                <a rel={"noopener noreferrer"} target={"_blank"} href="\"
-                                ><FaEye /></a>
-                            </Col>
-                        </Row>
-                    </Container>
-
-                </Col>
-                <Col xs="12" md="6" className={[classes.col, classes.Red, classes.Projects].join(' ')}
-                    header={"Title"}
-                    data-aos={props.animation}
-                    data-aos-duration="900"
-                    data-aos-offset="400"
-                    data-aos-delay="50"
-                    data-aos-easing="ease">
-                    <Container className={classes.Content}>
-                        <Row style={{ padding: '0.3rem' }}>
-                            <h3>Project Title</h3>
-                        </Row>
-                        <Row>
-                            <p> Chuck Norris doesn't churn butter. He roundhouse kicks the cows and the butter comes straight out. When the Boogeyman goes to sleep every night, he checks his closet for Chuck Norris CNN was originally created as the "Chuck Norris Network" to update Americans with on-the-spot ass kicking in real-time</p>
-                        </Row>
-                        <Row className={classes.tags}>
-                            <p>HTML</p>
-                            <p>ReactJS</p>
-                            <p>CSS</p>
-                            <p>NodeJS</p>
-
-                        </Row>
-                        <Row>
-                            <Col className={classes.icons}>
-                                <a rel={"noopener noreferrer"} target={"_blank"} href="\"
-                                ><AiFillGithub /></a>
-                                <a rel={"noopener noreferrer"} target={"_blank"} href="\"
-                                ><FaFilePowerpoint /></a>
-                                <a rel={"noopener noreferrer"} target={"_blank"} href="\"
-                                ><FaEye /></a>
-                            </Col>
-                        </Row>
-                    </Container>
-
-                </Col>
-                <Col xs="12" md="6" className={[classes.col, classes.Red, classes.Projects].join(' ')}
-                    header={"Title"}
-                    data-aos={props.animation}
-                    data-aos-duration="900"
-                    data-aos-offset="400"
-                    data-aos-delay="50"
-                    data-aos-easing="ease">
-                    <Container className={classes.Content}>
-                        <Row style={{ padding: '0.3rem' }}>
-                            <h3>Project Title</h3>
-                        </Row>
-                        <Row>
-                            <p> Chuck Norris doesn't churn butter. He roundhouse kicks the cows and the butter comes straight out. When the Boogeyman goes to sleep every night, he checks his closet for Chuck Norris CNN was originally created as the "Chuck Norris Network" to update Americans with on-the-spot ass kicking in real-time</p>
-                        </Row>
-                        <Row className={classes.tags}>
-                            <p>HTML</p>
-                            <p>ReactJS</p>
-                            <p>CSS</p>
-                            <p>NodeJS</p>
-
-                        </Row>
-                        <Row>
-                            <Col className={classes.icons}>
-                                <a rel={"noopener noreferrer"} target={"_blank"} href="\"
-                                ><AiFillGithub /></a>
-                                <a rel={"noopener noreferrer"} target={"_blank"} href="\"
-                                ><FaFilePowerpoint /></a>
-                                <a rel={"noopener noreferrer"} target={"_blank"} href="\"
-                                ><FaEye /></a>
-                            </Col>
-                        </Row>
-                    </Container>
-
-                </Col>
-                <Col xs="12" md="6" className={[classes.col, classes.Red, classes.Projects].join(' ')}
-                    header={"Title"}
-                    data-aos={props.animation}
-                    data-aos-duration="900"
-                    data-aos-offset="400"
-                    data-aos-delay="50"
-                    data-aos-easing="ease">
-                    <Container className={classes.Content}>
-                        <Row style={{ padding: '0.3rem' }}>
-                            <h3>Project Title</h3>
-                        </Row>
-                        <Row>
-                            <p> Chuck Norris doesn't churn butter. He roundhouse kicks the cows and the butter comes straight out. When the Boogeyman goes to sleep every night, he checks his closet for Chuck Norris CNN was originally created as the "Chuck Norris Network" to update Americans with on-the-spot ass kicking in real-time</p>
-                        </Row>
-                        <Row className={classes.tags}>
-                            <p>HTML</p>
-                            <p>ReactJS</p>
-                            <p>CSS</p>
-                            <p>NodeJS</p>
-
-                        </Row>
-                        <Row>
-                            <Col className={classes.icons}>
-                                <a rel={"noopener noreferrer"} target={"_blank"} href="\"
-                                ><AiFillGithub /></a>
-                                <a rel={"noopener noreferrer"} target={"_blank"} href="\"
-                                ><FaFilePowerpoint /></a>
-                                <a rel={"noopener noreferrer"} target={"_blank"} href="\"
-                                ><FaEye /></a>
-                            </Col>
-                        </Row>
-                    </Container>
-
-                </Col>
-            </Row>
-        </Container>
+                {projects}
+            </Row >
+        </Container >
 
 
     )
