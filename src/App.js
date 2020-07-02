@@ -1,4 +1,5 @@
 import React, { Component } from 'react'
+import ReactGA from 'react-ga';
 import classes from './App.module.css'
 import Navigation from './components/Navigation/Navigation'
 import Intro from './components/Intro/Intro'
@@ -17,6 +18,8 @@ class app extends Component {
   }
 
   componentDidMount = async () => {
+    ReactGA.initialize('UA-171423142-1');
+    ReactGA.pageview('/')
     this.loaderTimeOut().then(() => {
       this.setState({
         loading: false
