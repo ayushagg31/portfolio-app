@@ -6,7 +6,7 @@ import { Skill } from '../../main/Data'
 const skills = (props) => {
     const skill = Object.keys(Skill).map(skillId => {
         return (
-            <Col xs="12" sm="6" md="4" lg="3">
+            <Col key={skillId} xs="12" sm="6" md="4" lg="3">
                 <div className={classes.button}>
                     <img src={Skill[skillId].img} alt="web" width='20' height='20' />
                     <div>

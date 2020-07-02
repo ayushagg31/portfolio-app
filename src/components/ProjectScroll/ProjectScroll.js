@@ -22,7 +22,7 @@ const projectScroll = (props) => {
     AOS.init()
     const projects = Object.keys(Projectscroll).map(project => {
         return (
-            <Col xs="12" md="6" className={[classes.col, classes.Red, classes.Projects].join(' ')}
+            <Col key={project} xs="12" md="6" className={[classes.col, classes.Red, classes.Projects].join(' ')}
                 header={Projectscroll[project].title}
                 data-aos={props.animation}
                 data-aos-duration="900"
@@ -38,14 +38,14 @@ const projectScroll = (props) => {
                     </Row>
                     <Row className={classes.tags}>
                         {Projectscroll[project].tags.map(tag =>
-                            <p>{tag}</p>
+                            <p key={tag}>{tag}</p>
                         )}
                     </Row>
                     <Row>
                         <Col className={classes.icons}>
                             {Object.keys(Projectscroll[project].links).map(id => {
                                 return (
-                                    <a rel="noopener noreferrer" target="_blank"
+                                    <a key={id} rel="noopener noreferrer" target="_blank"
                                         href={Projectscroll[project].links[id]}>
                                         {icon(id)}
                                     </a>

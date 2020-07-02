@@ -3,7 +3,7 @@ import classes from './ProjectBuilder.module.css'
 import Projects from '../../components/Projects/Projects'
 import ProjectScroll from '../../components/ProjectScroll/ProjectScroll'
 import { Container, Row } from 'reactstrap'
-import { Project, Projectscroll } from '../../main/Data'
+import { Project } from '../../main/Data'
 
 const projectBuilder = (props) => {
     return (
@@ -17,7 +17,7 @@ const projectBuilder = (props) => {
                 </Row>
                 <Row>
                     {
-                        Object.keys(Project).map(title => <Projects title={title} animation="fade-right" />)
+                        Object.keys(Project).map(title => <Projects key={title} title={title} animation="fade-right" />)
                     }
 
                     <ProjectScroll animation="none" />

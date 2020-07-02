@@ -7,7 +7,7 @@ const toggles = (props) => {
     return (
         <div className={classes.Toggles}>
             <Container>
-                <Row className={"justify-content-center"}>
+                <Row className="justify-content-lg-start justify-content-center">
                     {/* <Col> */}
                         <Toggle name={'Bachelor\'s'} clicked={props.clicked.bind(this, 'UG')} />
                         <Toggle name={'School'} clicked={props.clicked.bind(this, 'HS')} />
