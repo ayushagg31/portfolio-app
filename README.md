@@ -40,9 +40,9 @@ Still facing problems, consider raising an **Issue** on the repository.
 ![xkcd-tags](https://imgs.xkcd.com/comics/tags.png)
 
 - [ ] Make a reusable component for heading 
-- [ ] Modify code to convert this into template
 - [ ] Reduce Redundancy in Projects and ProjectScroll components
 - [ ] Reduce Redundancy from Experiance and Education Section
+- [ ] Modify code to convert reusable into template
 - [x] Google Analytics setup
 - [x] SSL certification setup
 - [x] Import all the data from a separate file (automation)
@@ -53,7 +53,7 @@ Still facing problems, consider raising an **Issue** on the repository.
 - [ ] Add failure scenaiors in Contact Section
 - [ ] Add a Logo for the website
 - [ ] Add Sliding animation on the logo
-- [ ] Resolve Alias Issue
+- [x] Resolve Alias Issue
 - [ ] Add checks on the code (Github actions)
 
 ## Technology
