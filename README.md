@@ -35,8 +35,7 @@ npm run start
 
 Still facing problems, consider raising an **Issue** on the repository.
 
- ###### :warning: **You might face some issues in personalising the whole website**, working on some changes. Help me in resolving them.
-
+ ###### :warning: **You might face some issues in personalising the whole website**, working on some changes.
 ## Task Lists
 ![xkcd-tags](https://imgs.xkcd.com/comics/tags.png)
 
