@@ -5,12 +5,36 @@
 [![License: MIT](https://img.shields.io/badge/license-MIT-yellow.svg)](https://github.com/ayushagg31/portfolio-app/blob/master/LICENSE)
 [![LinkedIn](https://img.shields.io/badge/linkedin-connect-blue)](https://www.linkedin.com/in/ayush-aggarwal-b13a92120/)
 
+Portfolio website to showcase my work, skills and other information.
+
 ## Website
 Live version - [ayushaggarwal.com](https://ayushaggarwal.com/)
 
 Here's a preview of the website
 
 ![Preview](preview.gif)
+
+## Personalisation
+You can use this repository to build your own portfolios.
+
+**How to**
+ 1. Clone this repository
+ ```console
+git clone https://github.com/ayushagg31/portfolio-app.git
+cd portfolio-app
+ ```
+2. Install required libraries
+```console
+npm install
+```
+3. Run the project
+```console
+npm run start
+```
+4. To make changes, edit ```src\main\Data.js``` file.
+
+Still facing problems, consider raising issue on the repository.
+
 
 ## TODO
 ![xkcd-tags](https://imgs.xkcd.com/comics/tags.png)
