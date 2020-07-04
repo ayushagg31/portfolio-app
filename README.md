@@ -6,7 +6,7 @@
 [![LinkedIn](https://img.shields.io/badge/linkedin-connect-blue)](https://www.linkedin.com/in/ayush-aggarwal-b13a92120/)
 
 ## Website
-Visit here - [ayushaggarwal.com](https://ayushaggarwal.com/)
+Live version - [ayushaggarwal.com](https://ayushaggarwal.com/)
 
 Here's a preview of the website
 
