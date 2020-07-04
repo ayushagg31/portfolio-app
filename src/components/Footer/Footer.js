@@ -1,7 +1,9 @@
 import React from 'react'
 import classes from './Footer.module.css'
 import { Container, Row, Col } from 'reactstrap';
-import { AiFillGithub, AiFillMail, AiFillLinkedin } from "react-icons/ai";
+import { AiFillGithub, AiFillLinkedin } from "react-icons/ai";
+import { MdEmail } from 'react-icons/md'
+
 
 const githubUrl = "https://github.com/ayushagg31"
 const linkedinUrl = "https://www.linkedin.com/in/ayush-aggarwal-b13a92120/"
@@ -29,7 +31,7 @@ const footer = (props) => {
                     <a rel={"noopener noreferrer"} target={"_blank"} href={linkedinUrl}
                     ><AiFillLinkedin /></a>
                     <a rel={"noopener noreferrer"} target={"_blank"} href={gmailId}
-                    ><AiFillMail /></a>
+                    ><MdEmail /></a>
                 </Col>
             </Row>
             <Row className={classes.Footer}>

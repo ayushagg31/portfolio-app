@@ -2,8 +2,8 @@ import React from 'react'
 import classes from './Icons.module.css'
 import Icon from './Icon/Icon'
 import { Row, Container } from 'reactstrap'
-// import { FaGithub, FaLinkedinIn, FaGoogle } from 'react-icons/fa';
-import { AiFillGithub, AiFillMail, AiFillLinkedin } from "react-icons/ai";
+import { AiFillGithub, AiFillLinkedin } from "react-icons/ai";
+import { MdEmail } from 'react-icons/md'
 const githubUrl = "https://github.com/ayushagg31"
 const linkedinUrl = "https://www.linkedin.com/in/ayush-aggarwal-b13a92120/"
 const gmailId = "mailto: agg.ayush.1997@gmail.com"
@@ -16,7 +16,7 @@ const icons = (props) => {
                 <Row className={["justify-content-center", "align-items-start"].join(' ')}>
                     <Icon refs={githubUrl} text={"Github "}><AiFillGithub /></Icon>
                     <Icon refs={linkedinUrl} text={"LinkedIn "}><AiFillLinkedin /></Icon>
-                    <Icon refs={gmailId} text={"Gmail "}><AiFillMail /></Icon>
+                    <Icon refs={gmailId} text={"Gmail "}><MdEmail /></Icon>
                 </Row>
             </Container>
 

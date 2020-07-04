@@ -31,7 +31,7 @@ class app extends Component {
     const { loading } = this.state
     if (loading) {
       return (
-        <div className="rainbow" style={{ color: 'white', fontSize: '1.5rem', textAlign: 'center', paddingTop: '48vh' }}>
+        <div className="rainbow" style={{ color: 'white', fontSize: '1.5rem', textAlign: 'center', paddingTop: '43.4vh' }}>
           @gozmit #31
           <br />
           <span

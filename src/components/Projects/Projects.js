@@ -1,9 +1,11 @@
 import React from 'react'
 import classes from './Projects.module.css'
 import { AiFillGithub } from 'react-icons/ai'
-import { FaFilePowerpoint, FaEye } from 'react-icons/fa'
+import { FaFilePowerpoint, FaEye, FaBookOpen } from 'react-icons/fa'
+import { IoIosVideocam } from 'react-icons/io'
 import { Container, Row, Col } from 'reactstrap'
 import { Project } from '../../main/Data'
+
 import AOS from 'aos'
 import 'aos/dist/aos.css'
 
@@ -14,6 +16,10 @@ const icon = (id) => {
         return <AiFillGithub />
     else if (id === 'powerpoint')
         return <FaFilePowerpoint />
+    else if (id === 'wiki')
+        return <FaBookOpen />
+    else if (id === 'video')
+        return <IoIosVideocam />
     else
         return <FaEye />
 

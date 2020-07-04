@@ -2,8 +2,10 @@ import HSBClogo from '../assets/images/HSBC.png'
 import Wiprologo from '../assets/images/wipro.png'
 import NIT from '../assets/images/nit.png'
 import DAV from '../assets/images/dav.png'
-import project from '../assets/images/project.jpg'
+import video from '../assets/images/video.jpg'
 import Web from '../assets/images/web.png'
+import drumkit from '../assets/images/drumkit.jpg'
+import portfolio from '../assets/images/portfolio.png'
 import frontend from '../assets/images/React.png'
 import backend from '../assets/images/npm.png'
 import db from '../assets/images/db.png'
@@ -23,7 +25,7 @@ const Experience = {
         logo: HSBClogo,
         duration: '(July \'19 - current)',
         alt: 'Hsbc',
-        specialization: '...'
+        specialization: 'Google Cloud Platform, JS, Python'
     },
 
     Wipro:
@@ -36,7 +38,7 @@ const Experience = {
         alt: 'Wipro',
         width: '60',
         height: '40',
-        specialization: '...'
+        specialization: 'Shell Scripting, Ansible, Virtualization'
     }
 
 }
@@ -48,7 +50,7 @@ const Education = {
         location: 'Hamirpur, Himachal Pradesh, India',
         duration: '(2015 - 2019)',
         logo: NIT,
-        designation: 'Bachelor\'s Degree in Computer Science & Engineering',
+        designation: 'B.Tech in Computer Science & Engineering',
         alt: 'NIT',
         width: '60',
         height: '50'
@@ -71,80 +73,95 @@ const Education = {
 const Project = {
     A:
     {
-        title: 'Title',
+        title: 'Air-o-drum',
         description: `Chuck Norris doesn't churn butter. He roundhouse kicks the cows and the butter comes straight out. When the Boogeyman goes to sleep every night, he checks his closet for Chuck Norris CNN was originally created as the "Chuck Norris Network" to update Americans with on-the-spot ass kicking in real-time`,
-        img: project,
+        img: drumkit,
         links:
         {
-            github: '/',
-            powerpoint: '/',
-            live: '/'
+            github: 'https://github.com/ayushagg31/Magical_music_instruments',
+            video: 'https://drive.google.com/file/d/0B52MPjpQNqjRcFYzX0llQWRWdzQ/view'
         },
-        tags: ['HTML', 'CSS', 'JS']
+        tags: ['Python', 'OpenCV', 'Pygame']
     },
     B:
     {
-        title: 'Title',
-        description: `Chuck Norris doesn't churn butter. He roundhouse kicks the cows and the butter comes straight out. When the Boogeyman goes to sleep every night, he checks his closet for Chuck Norris CNN was originally created as the "Chuck Norris Network" to update Americans with on-the-spot ass kicking in real-time`,
-        img: project,
+        title: 'Video-Streaming',
+        description: `A Video Chat/Streaming application which enables you to stream your stored media/live webcam feed from one system to another.`,
+        img: video,
         links:
         {
-            github: '/',
-            powerpoint: '/',
-            live: '/'
+            github: 'https://github.com/ayushagg31/Video-Streaming',
+            powerpoint: 'https://drive.google.com/file/d/1vxnvqcYAydl8w9MdjoIRrCdpvoXuaVdk/view',
         },
-        tags: ['HTML', 'CSS', 'JS']
+        tags: ['Python', 'Socket', 'OpenCV']
+    },
+    C:
+    {
+        title: 'Personal Portfolio',
+        description: `Chuck Norris doesn't churn butter. He roundhouse kicks the cows and the butter comes straight out. When the Boogeyman goes to sleep every night, he checks his closet for Chuck Norris CNN was originally created as the "Chuck Norris Network" to update Americans with on-the-spot ass kicking in real-time`,
+        img: portfolio,
+        links:
+        {
+            github: 'https://github.com/ayushagg31/portfolio-app',
+            live: 'https://ayushaggarwal.com/'
+        },
+        tags: ['ReactJS', 'NodeJS', 'Reactstrap']
     }
 }
 
 const Projectscroll = {
     A:
     {
-        title: 'Title',
+        title: 'Study-Buddy',
         description: `Chuck Norris doesn't churn butter. He roundhouse kicks the cows and the butter comes straight out. When the Boogeyman goes to sleep every night, he checks his closet for Chuck Norris CNN was originally created as the "Chuck Norris Network" to update Americans with on-the-spot ass kicking in real-time`,
         links:
         {
-            github: '/',
-            powerpoint: '/',
-            live: '/'
+            github: 'https://github.com/ayushagg31/Study-Buddy',
+            powerpoint: 'https://drive.google.com/file/d/0B52MPjpQNqjRTDZRQ2M4R0xuRjA/view',
         },
-        tags: ['HTML', 'CSS', 'JS']
+        tags: ['Python', 'Socket', 'File sharing', 'Chatting']
     },
     B:
     {
-        title: 'Title',
+        title: 'Mini Python Scripts',
         description: `Chuck Norris doesn't churn butter. He roundhouse kicks the cows and the butter comes straight out. When the Boogeyman goes to sleep every night, he checks his closet for Chuck Norris CNN was originally created as the "Chuck Norris Network" to update Americans with on-the-spot ass kicking in real-time`,
         links:
         {
-            github: '/',
-            powerpoint: '/',
-            live: '/'
+            github: 'https://github.com/ayushagg31/my-python_scripts',
         },
-        tags: ['HTML', 'CSS', 'JS']
+        tags: ['Python', 'Selenium', 'API\'s', 'Tesseract']
     },
     C:
     {
-        title: 'Title',
+        title: 'Audio filtering ',
         description: `Chuck Norris doesn't churn butter. He roundhouse kicks the cows and the butter comes straight out. When the Boogeyman goes to sleep every night, he checks his closet for Chuck Norris CNN was originally created as the "Chuck Norris Network" to update Americans with on-the-spot ass kicking in real-time`,
         links:
         {
-            github: '/',
-            powerpoint: '/',
-            live: '/'
+            github: 'https://github.com/ayushagg31/Audio-clearing-using-machine-learning',
+            powerpoint: 'https://drive.google.com/file/d/1SldHmXWcssMzMpPvI0nUuP7nzQ5KxYiB/view',
         },
-        tags: ['HTML', 'CSS', 'JS']
+        tags: ['Octave', 'ANN', 'Backpropagation']
     },
     D:
     {
-        title: 'Title',
+        title: 'codelick ',
         description: `Chuck Norris doesn't churn butter. He roundhouse kicks the cows and the butter comes straight out. When the Boogeyman goes to sleep every night, he checks his closet for Chuck Norris CNN was originally created as the "Chuck Norris Network" to update Americans with on-the-spot ass kicking in real-time`,
         links:
         {
-            github: '/',
-            powerpoint: '/',
-            live: '/'
+            github: 'https://github.com/ayushagg31/codelick',
+            wiki: 'https://github.com/ayushagg31/codelick/wiki',
         },
-        tags: ['HTML', 'CSS', 'JS']
+        tags: ['C++', 'Competitive Programming']
+    },
+    E:
+    {
+        title: 'Travel-log ',
+        description: `Not Available`,
+        links:
+        {
+            // Yet to create
+        },
+        tags: ['React', 'Node', 'Mapbox', 'Express', 'MongoDB']
     }
 }
 

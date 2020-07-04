@@ -2,20 +2,38 @@ import React from 'react'
 import classes from './ProjectScroll.module.css'
 import { Container, Row, Col } from 'reactstrap'
 import { AiFillGithub } from 'react-icons/ai'
-import { FaFilePowerpoint, FaEye } from 'react-icons/fa'
+import { FaFilePowerpoint, FaBookOpen, FaEye } from 'react-icons/fa'
+import { IoIosVideocam } from 'react-icons/io'
 import { Projectscroll } from '../../main/Data'
 import AOS from 'aos'
 import 'aos/dist/aos.css'
 
-const icon = (id) => {
 
+const icon = (id) => {
     if (id === 'github')
         return <AiFillGithub />
     else if (id === 'powerpoint')
         return <FaFilePowerpoint />
+    else if (id === 'wiki')
+        return <FaBookOpen />
+    else if (id === 'video')
+        return <IoIosVideocam />
     else
         return <FaEye />
+}
 
+const isPending = (desc) => {
+    if (desc === `Not Available`)
+        return (<p style={{ margin: '0 auto', fontWeight: 'bold' }}>
+            <br />
+            <br />
+            -------------------Still Working-------------------
+            <br />
+            <br />
+            <br />
+            <br />
+        </p>)
+    return (<p>{desc}</p>)
 }
 
 const projectScroll = (props) => {
@@ -34,7 +52,8 @@ const projectScroll = (props) => {
                         <h3>{Projectscroll[project].title}</h3>
                     </Row>
                     <Row>
-                        <p>{Projectscroll[project].description}</p>
+                        {isPending(Projectscroll[project].description)}
+                        {/* <p>{Projectscroll[project].description}</p> */}
                     </Row>
                     <Row className={classes.tags}>
                         {Projectscroll[project].tags.map(tag =>
