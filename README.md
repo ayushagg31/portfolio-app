@@ -3,6 +3,7 @@
 ## Website
 [ayushaggarwal.com](https://ayushaggarwal.com/)
 
+
 ## Todo
 - [ ] Make a reusable component for heading 
 - [ ] Reduce Redundancy in Projects and ProjectScroll components
@@ -19,4 +20,7 @@
 - [ ] Add Sliding animation on the logo
 - [ ] Resolve Alias Issue
 - [ ] Add checks on the code (Github actions)
+
+![xkcd-tags](https://imgs.xkcd.com/comics/tags.png)
+
 
