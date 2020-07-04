@@ -12,7 +12,7 @@ Here's a preview of the website
 
 ![Preview](preview.gif)
 
-## Todo
+## TODO
 ![xkcd-tags](https://imgs.xkcd.com/comics/tags.png)
 
 - [ ] Make a reusable component for heading 
