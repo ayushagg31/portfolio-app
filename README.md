@@ -5,6 +5,8 @@
 
 
 ## Todo
+![xkcd-tags](https://imgs.xkcd.com/comics/tags.png)
+
 - [ ] Make a reusable component for heading 
 - [ ] Reduce Redundancy in Projects and ProjectScroll components
 - [ ] Reduce Redundancy from Experiance and Education Section
@@ -21,6 +23,5 @@
 - [ ] Resolve Alias Issue
 - [ ] Add checks on the code (Github actions)
 
-![xkcd-tags](https://imgs.xkcd.com/comics/tags.png)
 
 
