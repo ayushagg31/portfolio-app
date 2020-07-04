@@ -74,7 +74,7 @@ const Project = {
     A:
     {
         title: 'Air-o-drum',
-        description: `Chuck Norris doesn't churn butter. He roundhouse kicks the cows and the butter comes straight out. When the Boogeyman goes to sleep every night, he checks his closet for Chuck Norris CNN was originally created as the "Chuck Norris Network" to update Americans with on-the-spot ass kicking in real-time`,
+        description: `This project was created as a part of hackathon. We developed a sensor which can detects a particular color(Green by default) and enables you to play a musical instrument. Outline of Drum-kit and Piano is implemented to play the music. HSV slider is also added to observe noisy elements in the webcam frame.`,
         img: drumkit,
         links:
         {
@@ -86,7 +86,7 @@ const Project = {
     B:
     {
         title: 'Video-Streaming',
-        description: `A Video Chat/Streaming application which enables you to stream your stored media/live webcam feed from one system to another.`,
+        description: `A Video Chat/Streaming application which allows you to stream your stored media/live webcam feed from one system to another. Socket Programming is used to communicate between devices. JPEG Compression(lossy) is used to compress data and send to requesting devices in small chunks.`,
         img: video,
         links:
         {
@@ -98,7 +98,7 @@ const Project = {
     C:
     {
         title: 'Personal Portfolio',
-        description: `Chuck Norris doesn't churn butter. He roundhouse kicks the cows and the butter comes straight out. When the Boogeyman goes to sleep every night, he checks his closet for Chuck Norris CNN was originally created as the "Chuck Norris Network" to update Americans with on-the-spot ass kicking in real-time`,
+        description: `Personal website to highlight all my projects, skills and other information. Fully responsive website build completely using ReactJS and Reactstrap. Content is passed through a separate Javascript file to automate the deployment and easy maintenance.`,
         img: portfolio,
         links:
         {
@@ -113,7 +113,7 @@ const Projectscroll = {
     A:
     {
         title: 'Study-Buddy',
-        description: `Chuck Norris doesn't churn butter. He roundhouse kicks the cows and the butter comes straight out. When the Boogeyman goes to sleep every night, he checks his closet for Chuck Norris CNN was originally created as the "Chuck Norris Network" to update Americans with on-the-spot ass kicking in real-time`,
+        description: `Developed a platform for file uploading, downloading and chatting between multiple systems. It's a terminal based application. Socket Programming is used to communicate between devices. Created as a part of the hackathon.`,
         links:
         {
             github: 'https://github.com/ayushagg31/Study-Buddy',
@@ -124,7 +124,7 @@ const Projectscroll = {
     B:
     {
         title: 'Mini Python Scripts',
-        description: `Chuck Norris doesn't churn butter. He roundhouse kicks the cows and the butter comes straight out. When the Boogeyman goes to sleep every night, he checks his closet for Chuck Norris CNN was originally created as the "Chuck Norris Network" to update Americans with on-the-spot ass kicking in real-time`,
+        description: `Collection of Python scripts to automate tasks or scrap data from websites like Kaggle/Youtube using selenium or data-Api's for further use in a major project. Scripts are related to Kaggle, Cricbuzz, Youtube, Instagram, Trivia, Email etc.`,
         links:
         {
             github: 'https://github.com/ayushagg31/my-python_scripts',
@@ -133,8 +133,8 @@ const Projectscroll = {
     },
     C:
     {
-        title: 'Audio filtering ',
-        description: `Chuck Norris doesn't churn butter. He roundhouse kicks the cows and the butter comes straight out. When the Boogeyman goes to sleep every night, he checks his closet for Chuck Norris CNN was originally created as the "Chuck Norris Network" to update Americans with on-the-spot ass kicking in real-time`,
+        title: 'Audio filtering using ANN',
+        description: `Idea was to create an application using Artificial Neural Network that could be trained on a data sets for solving a certain problem. We used Octave as a platform to study all the characterstics of sound and its related parameters. First, we gave noise and audio(noise+vocals) as an input unit and retrieve pure vocals as output after around 50 iterations. Implementation is done using Backpropagation Algorithm.`,
         links:
         {
             github: 'https://github.com/ayushagg31/Audio-clearing-using-machine-learning',
@@ -145,7 +145,8 @@ const Projectscroll = {
     D:
     {
         title: 'codelick ',
-        description: `Chuck Norris doesn't churn butter. He roundhouse kicks the cows and the butter comes straight out. When the Boogeyman goes to sleep every night, he checks his closet for Chuck Norris CNN was originally created as the "Chuck Norris Network" to update Americans with on-the-spot ass kicking in real-time`,
+        description: `A repository for my code implementations of different Data Structure and Algorithmic Problems.
+        Wiki has been added for complete list of DSA implementations. It was created to maintain a log of my competitive programming progress.`,
         links:
         {
             github: 'https://github.com/ayushagg31/codelick',

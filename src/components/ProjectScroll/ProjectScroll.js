@@ -48,12 +48,13 @@ const projectScroll = (props) => {
                 data-aos-delay="50"
                 data-aos-easing="ease">
                 <Container className={classes.Content}>
-                    <Row style={{ padding: '0.3rem' }}>
+                    <Row style={{ padding: '1rem' }}>
                         <h3>{Projectscroll[project].title}</h3>
                     </Row>
                     <Row>
                         {isPending(Projectscroll[project].description)}
                         {/* <p>{Projectscroll[project].description}</p> */}
+                        <br />
                     </Row>
                     <Row className={classes.tags}>
                         {Projectscroll[project].tags.map(tag =>

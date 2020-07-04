@@ -1,7 +1,7 @@
 @import '../../main//vars.css';
 
 .Projects {
-    background-color: var(--card-color);
+    background-color: black;
     font-family: var(--text-font-family);
     max-width: 50rem;
     height: 19rem;

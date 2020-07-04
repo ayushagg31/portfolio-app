@@ -42,14 +42,14 @@ const projects = (props) => {
                         <img src={Project[props.title].img} alt="img" />
                         <svg height="316" viewBox="0 0 446 316" width="446" xmlns="http://www.w3.org/2000/svg">
                             <g fill="none" transform="">
-                                <path d="m274.549054 316h171.450946v-316h-366.2218303l-27.8168563 111.30701 51.1367946 204.69299z" fill="#0f0f0f" />
+                                <path d="m274.549054 316h171.450946v-316h-366.2218303l-27.8168563 111.30701 51.1367946 204.69299z" fill="#000000" />
                                 <path d="m24.1510925 0h55.697815l-27.8888842 111.320984z" fill="#9DFBF3" opacity=".556839" />
                                 <path d="m51.9603119 111.318024 51.1492271 204.681976h-102.31155714z" fill="#64C4BC" opacity=".526608" />
                             </g>
                         </svg>
 
                         <Container className={classes.Content}>
-                            <Row style={{ padding: '0.3rem' }}>
+                            <Row style={{ padding: '0.5rem', paddingTop:'0.2rem' }}>
                                 <h3>{Project[props.title].title}</h3>
                             </Row>
                             <Row>
