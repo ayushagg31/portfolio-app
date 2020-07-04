@@ -33,13 +33,15 @@ npm run start
 ```
 4. To make changes, edit ```src\main\Data.js``` file.
 
-Still facing problems, consider raising an *Issue* on the repository.
+Still facing problems, consider raising an **Issue** on the repository.
 
+ ###### :warning: **You might face some issues in personalising the whole website**, some changes needs to done. Help me in resolving them
 
-## TODO
+## Task Lists
 ![xkcd-tags](https://imgs.xkcd.com/comics/tags.png)
 
 - [ ] Make a reusable component for heading 
+- [ ] Modify code to convert this into template
 - [ ] Reduce Redundancy in Projects and ProjectScroll components
 - [ ] Reduce Redundancy from Experiance and Education Section
 - [x] Google Analytics setup
