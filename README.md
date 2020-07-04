@@ -33,7 +33,7 @@ npm run start
 ```
 4. To make changes, edit ```src\main\Data.js``` file.
 
-Still facing problems, consider raising issue on the repository.
+Still facing problems, consider raising an *Issue* on the repository.
 
 
 ## TODO
