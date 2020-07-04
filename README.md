@@ -7,6 +7,7 @@
 
 ## Website
 Visit here - [ayushaggarwal.com](https://ayushaggarwal.com/)
+[!Preview](preview.gif)
 
 ## Todo
 ![xkcd-tags](https://imgs.xkcd.com/comics/tags.png)
