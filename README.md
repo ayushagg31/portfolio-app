@@ -3,6 +3,10 @@
 ## Website
 [ayushaggarwal.com](https://ayushaggarwal.com/)
 
+## Technology
+- React - front-end framework
+- Node - back-end framework
+- Bootstrap - CSS framework directed at responsive, front-end web development. 
 
 ## Todo
 ![xkcd-tags](https://imgs.xkcd.com/comics/tags.png)
@@ -22,6 +26,9 @@
 - [ ] Add Sliding animation on the logo
 - [ ] Resolve Alias Issue
 - [ ] Add checks on the code (Github actions)
+
+## License
+Licensed under [MIT](https://github.com/ayushagg31/portfolio-app/blob/master/LICENSE) 
 
 
 
