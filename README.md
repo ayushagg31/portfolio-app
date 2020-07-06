@@ -57,8 +57,8 @@ Still facing problems, consider raising an **Issue** on the repository.
 - [ ] Add checks on the code (Github actions)
 
 ## Technology
-- React - front-end framework
-- Node - back-end framework
+- React - frontend framework
+- Node - backend framework
 - Reactstrap - React Bootstrap 4 components
 
 ## License
