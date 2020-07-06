@@ -18,6 +18,18 @@ body {
   
 }
 
+body::-webkit-scrollbar {
+  width: 0.25rem;
+}
+
+body::-webkit-scrollbar-track {
+  background: black;
+}
+
+body::-webkit-scrollbar-thumb {
+ background: var(--hov-color);
+}
+
 html{
   scroll-behavior: smooth;
   font-size: 16px;

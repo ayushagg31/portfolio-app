@@ -41,7 +41,7 @@ const footer = (props) => {
                         in  <a rel="noopener noreferrer" target="_blank"
                             href='https://www.google.com/maps/place/Pune,+Maharashtra/
                             @18.5246036,73.7929269,12z/data=!3m1!4b1!4m5!3m4!1s0x3bc2bf2e67461101:0x828d43bf9d9ee343!8m2!3d18.5204303!4d73.8567437'
-                        >Pune, India</a>
+                        ><strong>Pune, India</strong></a>
                     </span>
                 </Col>
             </Row>
