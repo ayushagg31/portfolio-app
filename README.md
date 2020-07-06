@@ -42,7 +42,7 @@ Still facing problems, consider raising an **Issue** on the repository.
 - [ ] Make a reusable component for heading 
 - [ ] Reduce Redundancy in Projects and ProjectScroll components
 - [ ] Reduce Redundancy from Experiance and Education Section
-- [ ] Modify code to convert reusable into template
+- [ ] Modify code to convert into reusable template
 - [x] Google Analytics setup
 - [x] SSL certification setup
 - [x] Import all the data from a separate file (automation)
