@@ -13,15 +13,15 @@ import 'aos/dist/aos.css'
 const icon = (id) => {
 
     if (id === 'github')
-        return <AiFillGithub />
+        return <AiFillGithub size={23} />
     else if (id === 'powerpoint')
-        return <FaFilePowerpoint />
+        return <FaFilePowerpoint size={23} />
     else if (id === 'wiki')
-        return <FaBookOpen />
+        return <FaBookOpen size={23} />
     else if (id === 'video')
-        return <IoIosVideocam />
+        return <IoIosVideocam size={23} />
     else
-        return <FaEye />
+        return <FaEye size={23} />
 
 }
 
@@ -49,7 +49,7 @@ const projects = (props) => {
                         </svg>
 
                         <Container className={classes.Content}>
-                            <Row style={{ padding: '0.5rem', paddingTop:'0.2rem' }}>
+                            <Row style={{ padding: '0.5rem', paddingTop: '0.2rem' }}>
                                 <h3>{Project[props.title].title}</h3>
                             </Row>
                             <Row>

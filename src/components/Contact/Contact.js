@@ -134,7 +134,7 @@ class Contact extends Component {
                     <div></div>
                 </Container>
                 <Row className={[classes.heading, 'justify-content-start'].join(' ')} noGutters>
-                    <p>Contact</p>
+                    <p>Get in touch</p>
                 </Row>
                 <Row>
                     <Col>

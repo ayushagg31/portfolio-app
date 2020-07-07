@@ -10,6 +10,9 @@ import {
     NavLink,
 } from 'reactstrap';
 
+const hash = '#'
+const navLinks = ['About', 'Experience', 'Education', 'Skills', 'Projects', 'Contact']
+
 const Navigation = (props) => {
     const [collapsed, setCollapsed] = useState(true);
     const toggleNavbar = () => setCollapsed(!collapsed);
@@ -23,24 +26,15 @@ const Navigation = (props) => {
                 <NavbarToggler className="mr-2" onClick={toggleNavbar} />
                 <Collapse isOpen={!collapsed} navbar>
                     <Nav navbar className="ml-auto">
-                        <NavItem>
-                            <NavLink href="#About" onClick={toggleNavbar}>About</NavLink>
-                        </NavItem>
-                        <NavItem>
-                            <NavLink href="#Experiance" onClick={toggleNavbar}>Experience</NavLink>
-                        </NavItem>
-                        <NavItem>
-                            <NavLink href="#Education" onClick={toggleNavbar}>Education</NavLink>
-                        </NavItem>
-                        <NavItem>
-                            <NavLink href="#Skills" onClick={toggleNavbar}>Skills</NavLink>
-                        </NavItem>
-                        <NavItem>
-                            <NavLink href="#Projects" onClick={toggleNavbar}>Projects</NavLink>
-                        </NavItem>
-                        <NavItem>
-                            <NavLink href="#Contact" onClick={toggleNavbar}>Contact</NavLink>
-                        </NavItem>
+                        {navLinks.map(item => {
+                            return (
+                                <NavItem key={item}>
+                                    <NavLink href={hash.concat(item)} onClick={toggleNavbar} style={{ color: 'white' }} >
+                                        {item}
+                                    </NavLink>
+                                </NavItem>
+                            )
+                        })}
                     </Nav>
                 </Collapse>
             </Navbar>

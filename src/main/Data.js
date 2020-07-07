@@ -74,7 +74,7 @@ const Project = {
     A:
     {
         title: 'Air-o-drum',
-        description: `This project was created as a part of hackathon. We developed a sensor which can detects a particular color(Green by default) and enables you to play a musical instrument. Outline of Drum-kit and Piano is implemented to play the music. HSV slider is also added to observe noisy elements in the webcam frame.`,
+        description: `This project was created as a part of hackathon. We developed a sensor which can detect a particular color(Green by default) and enables you to play a musical instrument. Outline of Drum-kit and Piano is implemented to play the music. HSV slider is also added to observe noisy elements in the webcam frame.`,
         img: drumkit,
         links:
         {
@@ -98,7 +98,7 @@ const Project = {
     C:
     {
         title: 'Personal Portfolio',
-        description: `Personal website to highlight all my projects, skills and other information. Fully responsive website build completely using ReactJS and Reactstrap. Content is passed through a separate Javascript file to automate the deployment and easy maintenance.`,
+        description: `Personal website to highlight all my projects, skills and other information. Fully responsive website built completely using ReactJS and Reactstrap. Content is passed through a separate Javascript file to automate the deployment and easy maintenance.`,
         img: portfolio,
         links:
         {
@@ -134,7 +134,7 @@ const Projectscroll = {
     C:
     {
         title: 'Audio filtering using ANN',
-        description: `Idea was to create an application using Artificial Neural Network that could be trained on a data sets for solving a certain problem. We used Octave as a platform to study all the characterstics of sound and its related parameters. First, we gave noise and audio(noise+vocals) as an input unit and retrieve pure vocals as output after around 50 iterations. Implementation is done using Backpropagation Algorithm.`,
+        description: `Octave is used to study different characterstics of sound and its related parameters. First, we gave noise and audio(noise+vocals) as an input and retrieve pure vocals after around 50 iterations.`,
         links:
         {
             github: 'https://github.com/ayushagg31/Audio-clearing-using-machine-learning',

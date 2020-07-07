@@ -26,7 +26,7 @@
       }
     },
     "opacity": {
-      "value": 0.5,
+      "value": 0.15,
       "random": false,
       "anim": {
         "enable": false,
@@ -49,12 +49,12 @@
       "enable": true,
       "distance": 150,
       "color": "#ffffff",
-      "opacity": 0.4,
+      "opacity": 0.24804564039783303,
       "width": 1
     },
     "move": {
       "enable": true,
-      "speed": 6,
+      "speed": 4,
       "direction": "none",
       "random": false,
       "straight": false,
@@ -75,8 +75,8 @@
         "mode": "repulse"
       },
       "onclick": {
-        "enable": false,
-        "mode": "repulse"
+        "enable": true,
+        "mode": "push"
       },
       "resize": true
     },

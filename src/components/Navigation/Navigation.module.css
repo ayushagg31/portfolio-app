@@ -1,11 +1,16 @@
+@import '../../main/vars.css';
+
 @media only screen and (max-width: 992px) {
     .Navik{
         background-color: black;
-        /* margin-bottom: 200px; */
-        /* padding-top: 0.25rem;
-        padding-bottom: 0.15rem; */
     }
 }
 
 
+a.testing{
+    color: white;
+}
 
+.navLink:hover{
+    color: var(--hov-color);
+}

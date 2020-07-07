@@ -10,16 +10,18 @@ import 'aos/dist/aos.css'
 
 
 const icon = (id) => {
+
     if (id === 'github')
-        return <AiFillGithub />
+        return <AiFillGithub size={23} />
     else if (id === 'powerpoint')
-        return <FaFilePowerpoint />
+        return <FaFilePowerpoint size={23} />
     else if (id === 'wiki')
-        return <FaBookOpen />
+        return <FaBookOpen size={23} />
     else if (id === 'video')
-        return <IoIosVideocam />
+        return <IoIosVideocam size={23} />
     else
-        return <FaEye />
+        return <FaEye size={23} />
+
 }
 
 const isPending = (desc) => {
@@ -40,7 +42,7 @@ const projectScroll = (props) => {
     AOS.init()
     const projects = Object.keys(Projectscroll).map(project => {
         return (
-            <Col key={project} xs="12" md="6" className={[classes.col, classes.Red, classes.Projects].join(' ')}
+            <Col key={project} xs="10" md="5" className={[classes.col, classes.Red, classes.Projects].join(' ')}
                 header={Projectscroll[project].title}
                 data-aos={props.animation}
                 data-aos-duration="900"
@@ -48,7 +50,7 @@ const projectScroll = (props) => {
                 data-aos-delay="50"
                 data-aos-easing="ease">
                 <Container className={classes.Content}>
-                    <Row style={{ padding: '1rem' }}>
+                    <Row style={{ padding: '0rem' }}>
                         <h3>{Projectscroll[project].title}</h3>
                     </Row>
                     <Row>

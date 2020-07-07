@@ -18,7 +18,7 @@ class ExperianceBuilder extends Component {
 
     render() {
         return (
-            <div className={classes.ExperianceBuilder} id="Experiance">
+            <div className={classes.ExperianceBuilder} id="Experience">
                 <Container style={{ height: '50px' }} >
                     <div></div>
                 </Container>
