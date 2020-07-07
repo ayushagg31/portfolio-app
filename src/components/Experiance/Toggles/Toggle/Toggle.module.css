@@ -9,6 +9,7 @@
   border-color: transparent;
   font-size: 1.43rem;
   font-family: var(--text-font-family);
+  text-shadow: 2px 2px 5px #dddddd;
 }
 
 .button:hover, .button:focus{
