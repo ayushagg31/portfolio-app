@@ -29,7 +29,7 @@ const isPending = (desc) => {
         return (<p style={{ margin: '0 auto', fontWeight: 'bold' }}>
             <br />
             <br />
-            -------------------Still Working-------------------
+            -------------------Work in Progress-------------------
             <br />
             <br />
             <br />

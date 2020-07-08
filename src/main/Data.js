@@ -134,7 +134,7 @@ const Projectscroll = {
     C:
     {
         title: 'Audio filtering using ANN',
-        description: `Octave is used to study different characterstics of sound and its related parameters. First, we gave noise and audio (noise+vocals) as an input and retrieve pure vocals after around 50 iterations.`,
+        description: `We created an application that generated pure vocals as output when fed audio (noise+vocals) as input. Implementation was done using ANN, backpropagation algorithm.`,
         links:
         {
             github: 'https://github.com/ayushagg31/Audio-clearing-using-machine-learning',

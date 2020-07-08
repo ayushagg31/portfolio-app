@@ -39,7 +39,7 @@
 }
 
 .Red::after{
-    background-color: #CE583F;
+    background-color:rgb(153, 37, 37);
 }
 
 .Projects:hover::after{
@@ -104,4 +104,10 @@
     animation: fill 2s;
     animation-fill-mode: both;
     opacity: 0;
+}
+
+@media only screen and (max-width: 600px) {
+    .Red::after{
+        background-color: rgb(151, 45, 45);
+    }
 }
