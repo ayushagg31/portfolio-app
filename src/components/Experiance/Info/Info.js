@@ -11,7 +11,7 @@ const info = (props) => {
         <Container className={classes.Info}>
             <Row style={{ width: '100%' }}>
                 <Col xs="12" md="2">
-                    <img src={Experience[props.org].logo} alt={Experience[props.org].alt} width='60' height='30' />
+                    <img src={Experience[props.org].logo} alt={Experience[props.org].alt} width='60' height='32' />
                 </Col>
                 <Col xs="12" md="10">
                     <div className={classes.Content}>
