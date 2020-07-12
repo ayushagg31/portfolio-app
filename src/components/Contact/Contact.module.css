@@ -94,9 +94,9 @@ textarea::placeholder {
 
 .heading{
   margin-left: -4.55%;
-  margin-bottom: -4.55%;
+  margin-bottom: -2.25%;
   z-index: -1;
-  font-size: 5rem;
+  font-size: 4.2rem;
   /* z-index: ; */
   font-weight: bold;
   color: #2D2A2A;
