@@ -156,13 +156,13 @@ const Projectscroll = {
     },
     E:
     {
-        title: 'Travel-log ',
+        title: 'Trellis ',
         description: `Not Available`,
         links:
         {
             // Yet to create
         },
-        tags: ['React', 'Node', 'Mapbox', 'Express', 'MongoDB']
+        tags: ['React', 'Node', 'Docker', 'Express', 'MongoDB', 'Jest']
     }
 }
 
