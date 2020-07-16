@@ -1,7 +1,7 @@
 # Personal Portfolio 
 [![website](https://img.shields.io/badge/website-up-%2338B2AC)](https://ayushaggarwal.com/)
 [![HitCount](http://hits.dwyl.com/ayushagg31/portfolio-app.svg)](http://hits.dwyl.com/ayushagg31/portfolio-app)
-[![todo](https://img.shields.io/badge/todo-13-red)]()
+[![todo](https://img.shields.io/badge/todo-12-red)]()
 [![License: MIT](https://img.shields.io/badge/license-MIT-yellow.svg)](https://github.com/ayushagg31/portfolio-app/blob/master/LICENSE)
 [![LinkedIn](https://img.shields.io/badge/linkedin-connect-blue)](https://www.linkedin.com/in/ayush-aggarwal-b13a92120/)
 
@@ -39,7 +39,7 @@ Still facing problems, consider raising an **Issue** on the repository.
 ## Task Lists
 ![xkcd-tags](https://imgs.xkcd.com/comics/tags.png)
 
-- [ ] Make a reusable component for heading 
+- [x] Make a reusable component for heading 
 - [ ] Make a reusable component for empty container
 - [ ] Reduce Redundancy in Projects and ProjectScroll components
 - [ ] Reduce Redundancy from Experiance and Education Section
