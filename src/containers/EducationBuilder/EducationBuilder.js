@@ -23,7 +23,7 @@ class ExperianceBuilder extends Component {
                     <div></div>
                 </Container>
                 <Container>
-                    <Row className={[classes.heading, 'justify-content-start'].join(' ')} noGutters>
+                    <Row className={[classes.heading, 'section-heading', 'justify-content-start'].join(' ')} noGutters>
                         <p>Education</p>
                     </Row>
                     <Row className={["justify-content-start", classes.Content, "align-items-center"].join(' ')}>

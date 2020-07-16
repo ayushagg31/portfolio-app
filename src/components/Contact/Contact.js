@@ -133,7 +133,7 @@ class Contact extends Component {
                 <Container style={{ height: '50px' }} >
                     <div></div>
                 </Container>
-                <Row className={[classes.heading, 'justify-content-start'].join(' ')} noGutters>
+                <Row className={[classes.heading, 'section-heading', 'justify-content-start'].join(' ')} noGutters>
                     <p>Drop a line</p>
                 </Row>
                 <Row>

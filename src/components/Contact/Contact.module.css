@@ -4,7 +4,6 @@
     animation: shake 0.82s cubic-bezier(.36,.07,.19,.97) both;
     transform: translate3d(0, 0, 0);
     backface-visibility: hidden;
-    /* perspective: 1000px; */
     border-color: red;
   }
   
@@ -27,7 +26,6 @@
   }
 
   .textArea {
-    /* padding: 20px;  */
     max-width: 20rem;
     height: 200px;
     overflow: auto;
@@ -38,8 +36,6 @@
     background-color: black;
     color:#dddddd;  
   
-   /* border-color: gray; */
-
 }
 
 .border:focus {
@@ -52,7 +48,6 @@
 
 .border {
   border-radius: 1.5rem;
-  /* border-color: gray; */
   height: 3rem;
   max-width: 20rem;
   padding: 2rem;
@@ -91,31 +86,10 @@ textarea::placeholder {
   font-family: sans-serif;
 }
 
-
 .heading{
-  margin-left: -4.55%;
-  margin-bottom: -2.25%;
-  z-index: -1;
-  font-size: 4.2rem;
-  /* z-index: ; */
-  font-weight: bold;
-  color: #2D2A2A;
-  transition: 0.3s ease-in-out;
+  margin-bottom: -1.75%;
 }
 
 .Contact:hover .heading{
-  /* .heading{ */
   color: var(--hov-color);   
 }
-
-
-@media only screen and (max-width: 992px) {
-
-  .heading {
-      margin: 0;
-      z-index: 0;
-      font-size: 2.5rem;
-      color:var(--hov-color)
-  }
-}
-

@@ -12,7 +12,7 @@ const projectBuilder = (props) => {
                 <div></div>
             </Container>
             <Container>
-                <Row className={[classes.heading, 'justify-content-start'].join(' ')} noGutters>
+                <Row className={[classes.heading,'section-heading', 'justify-content-start'].join(' ')} noGutters>
                     <p>Projects</p>
                 </Row>
                 <Row>

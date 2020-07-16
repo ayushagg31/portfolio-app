@@ -9,14 +9,13 @@ const about = (props) => {
                 <div></div>
             </Container>
             <Container >
-                <Row className={[classes.heading, 'justify-content-start'].join(' ')} noGutters>
+                <Row className={[classes.heading, 'section-heading', 'justify-content-start'].join(' ')} noGutters>
                     <p>About</p>
                 </Row>
                 <Row>
                     <Col className={classes.Content}>
-                        <span role="img" aria-label="hi">👋</span> Hi
-                        <br />
-                        <br />
+                        <br/>
+                        <span role="img" aria-label="hi">👋</span> Hi, 
                         I'm Ayush! -  software developer, with a passion for technology and learning. Always inspired by new idea, and willingness to contribute towards a valuable end product is what pushes me.
                         <br />
                         <br />
