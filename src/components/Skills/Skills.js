@@ -23,7 +23,7 @@ const skills = (props) => {
                 <div></div>
             </Container>
             <Container>
-                <Row className={[classes.heading, 'justify-content-end'].join(' ')} noGutters>
+                <Row className={[classes.heading, 'section-heading', 'justify-content-end'].join(' ')} noGutters>
                     <p>Skills</p>
                 </Row>
                 <Row className={"justify-content-between"}>
