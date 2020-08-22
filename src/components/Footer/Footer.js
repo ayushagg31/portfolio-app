@@ -4,10 +4,9 @@ import { Container, Row, Col } from 'reactstrap';
 import { AiFillGithub, AiFillLinkedin } from "react-icons/ai";
 import { MdEmail } from 'react-icons/md'
 
-
 const githubUrl = "https://github.com/ayushagg31"
-const linkedinUrl = "https://www.linkedin.com/in/ayush-aggarwal-b13a92120/"
-const gmailId = "mailto: agg.ayush.1997@gmail.com"
+const linkedinUrl = "https://www.linkedin.com/in/ayushagg31/"
+const gmailId = "mailto: hello@ayushaggarwal.com"
 
 const footer = (props) => {
     return (

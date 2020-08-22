@@ -2,6 +2,7 @@ import HSBClogo from '../assets/images/HSBC.png'
 import Wiprologo from '../assets/images/wipro.png'
 import NIT from '../assets/images/nit.png'
 import DAV from '../assets/images/dav.png'
+import trellis from '../assets/images/Trellis.png'
 import video from '../assets/images/video.jpg'
 import Web from '../assets/images/web.png'
 import drumkit from '../assets/images/drumkit.jpg'
@@ -15,6 +16,7 @@ import scraping from '../assets/images/scraping.png'
 import competitive from '../assets/images/competitive.png'
 import linux from '../assets/images/linux.png'
 import gcp from '../assets/images/gcp.png'
+import testing from '../assets/images/testing.png'
 
 
 const Experience = {
@@ -73,6 +75,31 @@ const Education = {
 const Project = {
     A:
     {
+        title: 'Trellis ',
+        description: `Trello Clone [Desktop only]- Built using MERN stack. This project was created to experiment with my MERN stack skills. It's a tool for task management and project management. TDD practices are followed while developing and I'm constantly working on improving the code quality and adding new features.`,
+        img: trellis,
+        links:
+        {
+            github: 'https://github.com/ayushagg31/Trellis',
+            live: 'https://trellis-app.herokuapp.com',
+            video: 'https://drive.google.com/file/d/1eP41BKh8LLL7ScSnhGlSd3FJRKXazva3/view',
+        },
+        tags: ['React', 'Redux', 'Node', 'Express', 'MongoDB', 'Jest']
+    },
+    B:
+    {
+        title: 'Personal Portfolio',
+        description: `Personal website to highlight all my projects, skills and other information. Fully responsive website built completely using ReactJS and Reactstrap. Content is passed through a separate Javascript file to automate the deployment and easy maintenance.`,
+        img: portfolio,
+        links:
+        {
+            github: 'https://github.com/ayushagg31/portfolio-app',
+            live: 'https://ayushaggarwal.com/'
+        },
+        tags: ['ReactJS', 'NodeJS', 'Reactstrap']
+    },
+    C:
+    {
         title: 'Air-o-drum',
         description: `This project was created as a part of hackathon. We developed a sensor which can detect a particular color(Green by default) and enables you to play a musical instrument. Outline of Drum-kit and Piano is implemented to play the music. HSV slider is also added to observe noisy elements in the webcam frame.`,
         img: drumkit,
@@ -83,7 +110,12 @@ const Project = {
         },
         tags: ['Python', 'OpenCV', 'Pygame']
     },
-    B:
+
+
+}
+
+const Projectscroll = {
+    A:
     {
         title: 'Video-Streaming',
         description: `A Video Chat/Streaming application which allows you to stream your stored media/live webcam feed from one system to another. Socket Programming is used to communicate between devices. JPEG Compression(lossy) is used to compress data and send to requesting devices in small chunks.`,
@@ -95,22 +127,7 @@ const Project = {
         },
         tags: ['Python', 'Socket', 'OpenCV']
     },
-    C:
-    {
-        title: 'Personal Portfolio',
-        description: `Personal website to highlight all my projects, skills and other information. Fully responsive website built completely using ReactJS and Reactstrap. Content is passed through a separate Javascript file to automate the deployment and easy maintenance.`,
-        img: portfolio,
-        links:
-        {
-            github: 'https://github.com/ayushagg31/portfolio-app',
-            live: 'https://ayushaggarwal.com/'
-        },
-        tags: ['ReactJS', 'NodeJS', 'Reactstrap']
-    }
-}
-
-const Projectscroll = {
-    A:
+    B:
     {
         title: 'Study-Buddy',
         description: `Developed a platform for file uploading, downloading and chatting between multiple systems. It's a terminal based application. Socket Programming is used to communicate between devices. Created as a part of the hackathon.`,
@@ -121,7 +138,7 @@ const Projectscroll = {
         },
         tags: ['Python', 'Socket', 'File sharing', 'Chatting']
     },
-    B:
+    C:
     {
         title: 'Mini Python Scripts',
         description: `Collection of Python scripts to automate tasks or scrap data from websites like Kaggle/Youtube using selenium or data-Api's for further use in a major project. Scripts are related to Kaggle, Cricbuzz, Youtube, Instagram, Trivia, Email etc.`,
@@ -131,7 +148,7 @@ const Projectscroll = {
         },
         tags: ['Python', 'Selenium', 'API\'s', 'Tesseract']
     },
-    C:
+    D:
     {
         title: 'Audio filtering using ANN',
         description: `We created an application that generated pure vocals as output when fed audio (noise+vocals) as input. Implementation was done using ANN, backpropagation algorithm.`,
@@ -142,7 +159,7 @@ const Projectscroll = {
         },
         tags: ['Octave', 'ANN', 'Backpropagation']
     },
-    D:
+    E:
     {
         title: 'codelick ',
         description: `A repository for my code implementations of different Data Structure and Algorithmic Problems.
@@ -154,16 +171,6 @@ const Projectscroll = {
         },
         tags: ['C++', 'Competitive Programming']
     },
-    E:
-    {
-        title: 'Trellis ',
-        description: `Not Available`,
-        links:
-        {
-            // Yet to create
-        },
-        tags: ['React', 'Node', 'Docker', 'Express', 'MongoDB', 'Jest']
-    }
 }
 
 
@@ -176,12 +183,17 @@ const Skill = {
     B: {
         skill: 'Frontend Frameworks',
         img: frontend,
-        info: 'React'
+        info: 'React/Redux'
     },
     J: {
         skill: 'Backend Frameworks',
         img: backend,
         info: 'Node.js/Express.js/Mongoose'
+    },
+    K: {
+        skill: 'Testing Frameworks',
+        img: testing,
+        info: 'Jest/Supertest/sinon/React-testing-library'
     },
     C: {
         skill: 'DBMS',

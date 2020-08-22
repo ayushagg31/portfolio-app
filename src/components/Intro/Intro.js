@@ -42,11 +42,10 @@ const intro = (props) => {
                                     steps={
                                         [
                                             '  ', 1200,
-                                            'I am a Developer ✔', 500,
+                                            'I am a Full Stack Developer ✔', 500,
                                             'I am a Open-Sourcer 👀', 500,
-                                            'I am a Programmer 😎', 500,
                                             'I am a Space Enthusiast 🚀', 500,
-                                            'I am a Binge-watcher 📺', 500,
+                                            'I am a History Nerd 🤓', 500,
 
                                         ]}
                                     loop={Infinity}
