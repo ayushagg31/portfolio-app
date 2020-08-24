@@ -76,7 +76,7 @@ const Project = {
     A:
     {
         title: 'Trellis ',
-        description: `Trello Clone [Desktop only]- Built using MERN stack. This project was created to experiment with my MERN stack skills. It's a tool for task management and project management. TDD practices are followed while developing and I'm constantly working on improving the code quality and adding new features.`,
+        description: `Trello Clone - Built using MERN stack. This project was created to experiment with my MERN stack skills. It's a tool for task management and project management. TDD practices are followed while developing and I'm constantly working on improving the code quality and adding new features.`,
         img: trellis,
         links:
         {
