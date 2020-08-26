@@ -12,6 +12,7 @@
 }
 .scroll{
     z-index: 100;
+    min-width: 100%;
     /* scrollbar-color: dark; */
 }
 div::-webkit-scrollbar {
