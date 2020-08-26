@@ -5,12 +5,33 @@
     z-index: 5;
 }
 
-
 .heading{
     /* margin-left: -3%; */
     margin-bottom: -6.85%;
 
 }
+.scroll{
+    z-index: 100;
+    /* scrollbar-color: dark; */
+}
+div::-webkit-scrollbar {
+  height: 0.45rem;
+
+}
+
+div::-webkit-scrollbar-track {
+  background: black;
+}
+
+div::-webkit-scrollbar-thumb {
+  border-radius: 10px;
+ background: var(--hov-color);
+}
+
+div::-webkit-scrollbar:vertical {
+  display: none;
+}
+  
 
 .ProjectBuilder:hover .heading{
     color: var(--hov-color);   

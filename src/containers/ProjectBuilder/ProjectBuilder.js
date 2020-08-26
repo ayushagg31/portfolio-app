@@ -12,15 +12,14 @@ const projectBuilder = (props) => {
                 <div></div>
             </Container>
             <Container>
-                <Row className={[classes.heading,'section-heading', 'justify-content-start'].join(' ')} noGutters>
+                <Row className={[classes.heading, 'section-heading', 'justify-content-start'].join(' ')} noGutters>
                     <p>Projects</p>
                 </Row>
                 <Row>
-                    {
-                        Object.keys(Project).map(title => <Projects key={title} title={title} animation="fade-right" />)
-                    }
-
-                    <ProjectScroll animation="none" />
+                    {Object.keys(Project).map(title => <Projects key={title} title={title} animation="fade-right" />)}
+                    <div className={classes.scroll}>
+                        <ProjectScroll animation="none" />
+                    </div>
                 </Row>
             </Container>
         </div>

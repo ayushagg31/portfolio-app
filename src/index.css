@@ -15,11 +15,14 @@ body {
   color: var(--text-color);
   height: 100%;
   width: 100%;
+  -moz-user-select: none;	  
+	-ms-user-select: none;	
+  user-select: none;	
   
 }
 
 body::-webkit-scrollbar {
-  width: 0.25rem;
+  width: 0.35rem;
 }
 
 body::-webkit-scrollbar-track {
@@ -27,6 +30,7 @@ body::-webkit-scrollbar-track {
 }
 
 body::-webkit-scrollbar-thumb {
+  border-radius: 10px;
  background: var(--hov-color);
 }
 

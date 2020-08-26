@@ -4,7 +4,7 @@
     background-color: black;
     min-width: 500px;
     height: auto; 
-    overflow: hidden;
+    overflow: hidden; 
     color: var(--text-color);
     box-sizing: border-box;
     border-radius: .9rem;
