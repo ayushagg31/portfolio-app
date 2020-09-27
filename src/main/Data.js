@@ -193,7 +193,7 @@ const Skill = {
     K: {
         skill: 'Testing Frameworks',
         img: testing,
-        info: 'Jest/Supertest/sinon/React-testing-library'
+        info: 'Jest/Supertest/React-testing-library'
     },
     C: {
         skill: 'DBMS',
