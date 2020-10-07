@@ -40,9 +40,9 @@ Still facing problems, consider raising an **Issue** on the repository.
 ![xkcd-tags](https://imgs.xkcd.com/comics/tags.png)
 
 - [x] Make a reusable component for heading 
-- [ ] Make a reusable component for empty container
-- [ ] Reduce Redundancy in Projects and ProjectScroll components
-- [ ] Reduce Redundancy from Experiance and Education Section
+- [x] Make a reusable component for empty container
+- [x] Reduce Redundancy in Projects and ProjectScroll components
+- [x] Reduce Redundancy from Experiance and Education Section
 - [ ] Modify code to convert into reusable template
 - [x] Google Analytics setup
 - [x] SSL certification setup
@@ -51,11 +51,11 @@ Still facing problems, consider raising an **Issue** on the repository.
 - [ ] Add light mode to the website
 - [x] Improve colors of Project section
 - [ ] Explore stepper navMenu for desktop view
-- [ ] Add failure scenaiors in Contact Section
+- [x] Add failure scenaiors in Contact Section
 - [ ] Add a Logo for the website
 - [ ] Add Sliding animation on the logo
 - [x] Resolve Alias Issue
-- [ ] Improve Horizontal Slidebar
+- [x] Improve Horizontal Slidebar
 - [ ] Add checks on the code (Github actions)
 
 ## Technology
