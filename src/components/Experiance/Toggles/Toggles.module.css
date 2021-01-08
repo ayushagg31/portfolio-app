@@ -4,9 +4,9 @@
     margin-right: 150px;
 } */
 
-/* .Toggles {
-    margin-top: 40%;
-} */
+.Toggles {
+    margin-top: 2rem;
+}
 
 @media only screen and (max-width: 992px) {
     .Toggles{

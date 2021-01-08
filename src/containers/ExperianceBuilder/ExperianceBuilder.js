@@ -7,7 +7,7 @@ import { Container, Row, Col } from 'reactstrap'
 class ExperianceBuilder extends Component {
 
     state = {
-        org: 'Hsbc'
+        org: 'Spinny'
     }
 
     clickHandler = (orgName) => {

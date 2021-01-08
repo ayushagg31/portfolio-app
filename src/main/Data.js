@@ -1,3 +1,4 @@
+import Spinnylogo from '../assets/images/spinny.png'
 import HSBClogo from '../assets/images/HSBC.png'
 import Wiprologo from '../assets/images/wipro.png'
 import NIT from '../assets/images/nit.png'
@@ -20,18 +21,26 @@ import testing from '../assets/images/testing.png'
 
 
 const Experience = {
+    Spinny: {
+        title: 'Spinny',
+        designation: 'Software Engineer',
+        location: 'Gurugram, Haryana, India',
+        logo: Spinnylogo,
+        duration: '(Jan \'21 - Present)',
+        alt: 'Spinny',
+        specialization: 'Frontend, ReactJS, Javascript'
+    },
     Hsbc: {
         title: 'HSBC Technology',
         designation: 'Software Engineer',
         location: 'Pune, Maharastra, India',
         logo: HSBClogo,
-        duration: '(July \'19 - current)',
+        duration: '(July \'19 - Dec \'20)',
         alt: 'Hsbc',
         specialization: 'Google Cloud Platform, JS, Python'
     },
 
-    Wipro:
-    {
+    Wipro: {
         title: 'Wipro Limited',
         designation: 'Software Intern',
         location: 'Bengaluru, Karnataka, India',
