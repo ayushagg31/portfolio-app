@@ -1,6 +1,5 @@
 import React, { Component } from 'react'
 import ReactGA from 'react-ga';
-import classes from './App.module.css'
 import Navigation from './components/Navigation/Navigation'
 import Intro from './components/Intro/Intro'
 import About from './components/About/About'
@@ -42,7 +41,7 @@ class app extends Component {
     }
 
     return (
-      <div className={classes.App}>
+      <div>
         <Navigation />
         <Intro />
         <About />
@@ -52,7 +51,6 @@ class app extends Component {
         <ProjectBuilder />
         <Contact />
         <Footer />
-
       </div>
     )
   }
