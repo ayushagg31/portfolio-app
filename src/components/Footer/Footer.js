@@ -21,7 +21,7 @@ const footer = (props) => {
             </Row>
             <Row className={[classes.Footer, 'justify-content-around'].join(' ')}>
                 <Col>
-                    Copyright © 2020 Ayush Aggarwal
+                    Copyright © {`${new Date().getFullYear()}`} Ayush Aggarwal
                 </Col>
                 <Col className={["text-right d-none d-md-block", classes.icons].join(' ')}>
 
