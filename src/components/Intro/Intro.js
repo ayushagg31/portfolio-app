@@ -56,7 +56,7 @@ const intro = (props) => {
                                 />
                             </div>
                             <Icons />
-                            <button id="download-resume" className={classes.button}>
+                            <button id="download-resume" className={classes.button} onClick={()=> window.open(ResumeURL)}>
                                 <IconContext.Provider value={{ style: { verticalAlign: 'middle', marginRight: '10px' } }}>
                                      <HiDocumentDownload size={20}/>
                                 </IconContext.Provider>
