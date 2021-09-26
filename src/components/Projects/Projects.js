@@ -62,11 +62,11 @@ const projects = (props) => {
                             </Row>
                             <Row>
                                 <Col className={classes.icons}>
-                                    {Object.keys(Project[props.title].links).map(id => {
+                                    {Object.keys(Project[props.title].links).map(key => {
                                         return (
-                                            <a key={id} rel="noopener noreferrer" target="_blank"
-                                                href={Project[props.title].links[id]}>
-                                                {icon(id)}
+                                            <a key={key} id={Project[props.title].links[key].analyticsKey||`${key}-${Project[props.title].title}`} rel="noopener noreferrer" target="_blank"
+                                                href={Project[props.title].links[key].url}>
+                                                {icon(key)}
                                             </a>
                                         )
                                     })}

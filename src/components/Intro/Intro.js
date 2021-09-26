@@ -3,10 +3,13 @@ import classes from './Intro.module.css'
 import Typical from 'react-typical'
 import profile from '../../assets/images/profile.jpg'
 import Icons from '../Icons/Icons'
+import { HiDocumentDownload } from 'react-icons/hi'
+import { IconContext } from "react-icons";
 import { bounce } from 'react-animations';
 import Radium, { StyleRoot } from 'radium';
 // import DownPulse from '../DownPulse/DownPulse'
 import { Container, Row, Col } from 'reactstrap'
+import {ResumeURL} from '../../main/Data'
 
 const styles = {
     bounce: {
@@ -24,7 +27,7 @@ const intro = (props) => {
                         <Col xs="12" lg="6">
                             <div className={classes.ImgCenter}>
                                 <StyleRoot >
-                                    <img src={profile} alt="gozmit" style={styles.bounce} />
+                                    <img loading="lazy" src={profile} alt="gozmit" style={styles.bounce} />
                                 </StyleRoot>
                             </div>
                         </Col>
@@ -42,7 +45,7 @@ const intro = (props) => {
                                     steps={
                                         [
                                             '  ', 1200,
-                                            'I am a Full Stack Developer ✔', 500,
+                                            'I am a Frontend Developer ✔', 500,
                                             'I am a Open-Sourcer 👀', 500,
                                             'I am a Space Enthusiast 🚀', 500,
                                             'I am a History Nerd 🤓', 500,
@@ -53,6 +56,12 @@ const intro = (props) => {
                                 />
                             </div>
                             <Icons />
+                            <button id="download-resume" className={classes.button} onClick={()=> window.open(ResumeURL)}>
+                                <IconContext.Provider value={{ style: { verticalAlign: 'middle', marginRight: '10px' } }}>
+                                     <HiDocumentDownload size={20}/>
+                                </IconContext.Provider>
+                            Download Resume
+                            </button>
                         </Col>
                     </Row>
                 </Container>

@@ -1,48 +1,52 @@
-@import '../../main/vars.css';
+@import "../../main/vars.css";
 
 .shake {
-    animation: shake 0.82s cubic-bezier(.36,.07,.19,.97) both;
-    transform: translate3d(0, 0, 0);
-    backface-visibility: hidden;
-    border-color: red;
-  }
-  
-  @keyframes shake {
-    10%, 90% {
-      transform: translate3d(-2px, 0, 0);
-    }
-    
-    20%, 80% {
-      transform: translate3d(2px, 0, 0);
-    }
-  
-    30%, 50%, 70% {
-      transform: translate3d(-4px, 0, 0);
-    }
-  
-    40%, 60% {
-      transform: translate3d(4px, 0, 0);
-    }
+  animation: shake 0.82s cubic-bezier(0.36, 0.07, 0.19, 0.97) both;
+  transform: translate3d(0, 0, 0);
+  backface-visibility: hidden;
+  border-color: red;
+}
+
+@keyframes shake {
+  10%,
+  90% {
+    transform: translate3d(-2px, 0, 0);
   }
 
-  .textArea {
-    max-width: 20rem;
-    height: 200px;
-    overflow: auto;
-    resize: none;
-    margin-bottom: 20px;
-    padding:1.5rem;
-    border-radius: 1.5rem;
-    background-color: black;
-    color:#dddddd;  
-  
+  20%,
+  80% {
+    transform: translate3d(2px, 0, 0);
+  }
+
+  30%,
+  50%,
+  70% {
+    transform: translate3d(-4px, 0, 0);
+  }
+
+  40%,
+  60% {
+    transform: translate3d(4px, 0, 0);
+  }
+}
+
+.textArea {
+  max-width: 20rem;
+  height: 200px;
+  overflow: auto;
+  resize: none;
+  margin-bottom: 20px;
+  padding: 1.5rem;
+  border-radius: 1.5rem;
+  background-color: black;
+  color: #dddddd;
 }
 
 .border:focus {
   outline: none;
 }
 
-.textArea:focus{
+.textArea:focus {
   outline: none;
 }
 
@@ -53,7 +57,7 @@
   padding: 2rem;
   margin-bottom: 20px;
   background-color: black;
-  color: #dddddd
+  color: #dddddd;
 }
 
 .submitButton {
@@ -61,20 +65,20 @@
   max-width: 13rem;
   min-width: 5rem;
   text-align: center;
+  cursor: pointer;
   float: left;
   height: 3rem;
   font-weight: bold;
   color: #dddddd;
   background-color: black;
-  vertical-align: 'middle'
-  
+  vertical-align: middle;
 }
 
 .submitButton:hover {
-  color: var(--hov-color)
+  color: var(--hov-color);
 }
 
-.submitButton:focus{
+.submitButton:focus {
   outline: none;
 }
 
@@ -86,10 +90,10 @@ textarea::placeholder {
   font-family: sans-serif;
 }
 
-.heading{
+.heading {
   margin-bottom: -1.75%;
 }
 
-.Contact:hover .heading{
-  color: var(--hov-color);   
+.Contact:hover .heading {
+  color: var(--hov-color);
 }

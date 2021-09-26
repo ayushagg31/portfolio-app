@@ -4,26 +4,21 @@ import Icon from './Icon/Icon'
 import { Row, Container } from 'reactstrap'
 import { AiFillGithub, AiFillLinkedin } from "react-icons/ai";
 import { MdEmail } from 'react-icons/md'
+import { personalLinks as links } from '../../main/Data'
 
-const githubUrl = "https://github.com/ayushagg31"
-const linkedinUrl = "https://www.linkedin.com/in/ayushagg31/"
-const gmailId = "mailto: hello@ayushaggarwal.com"
-
-const icons = (props) => {
-
+const icons = () => {
     return (
         <div className={classes.Icons}>
             <Container>
                 <Row className={["justify-content-center", "align-items-start"].join(' ')}>
-                    <Icon refs={githubUrl} text={"Github "}><AiFillGithub /></Icon>
-                    <Icon refs={linkedinUrl} text={"LinkedIn "}><AiFillLinkedin /></Icon>
-                    <Icon refs={gmailId} text={"Gmail "}><MdEmail /></Icon>
+                    <Icon analyticsKey="redirect-github" refs={links.githubUrl} text={"Github "}><AiFillGithub /></Icon>
+                    <Icon analyticsKey="redirect-linkedin" refs={links.linkedinUrl} text={"LinkedIn "}><AiFillLinkedin /></Icon>
+                    <Icon analyticsKey="redirect-email" refs={links.gmailId} text={"Gmail "}><MdEmail /></Icon>
                 </Row>
             </Container>
 
         </div>
     )
-
 }
 
 export default icons;

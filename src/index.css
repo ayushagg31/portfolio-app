@@ -1,24 +1,28 @@
-@import '../src/main/vars.css';
+@import "../src/main/vars.css";
 
-
-*{
+* {
   box-sizing: border-box;
   /* border: 0.05px solid red; */
 }
 
 body {
   margin: 0;
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   background-color: var(--background-color);
   color: var(--text-color);
   height: 100%;
   width: 100%;
-  -moz-user-select: none;	  
-	-ms-user-select: none;	
-  user-select: none;	
-  
+}
+
+::selection {
+  color: #000; /* WebKit/Blink Browsers */
+  background: var(--hov-color);
+}
+::-moz-selection {
+  color: #000; /* Gecko Browsers */
+  background: var(--hov-color);
 }
 
 body::-webkit-scrollbar {
@@ -31,61 +35,61 @@ body::-webkit-scrollbar-track {
 
 body::-webkit-scrollbar-thumb {
   border-radius: 10px;
- background: var(--hov-color);
+  background: var(--hov-color);
 }
 
-html{
+html {
   scroll-behavior: smooth;
   font-size: 16px;
 }
 
-.example{
-  position:absolute !important;
+.example {
+  position: absolute !important;
   top: 0;
   left: 0;
   height: 100%;
   width: 100%;
-  }
+}
 
-  
-.navbar-dark .navbar-brand{
+.navbar-dark .navbar-brand {
   font-weight: bold;
   color: var(--text-color);
   transition: 0.8s ease-in-out;
 }
 
-.navbar-dark:hover .navbar-brand:hover{
-  color: var(--hov-color)
+.navbar-dark:hover .navbar-brand:hover {
+  color: var(--hov-color);
 }
 
-
-#particles-js{
-  position:fixed;
+#particles-js {
+  position: fixed;
   width: 100%;
   height: 100%;
   background-repeat: repeat;
   background-size: cover;
-  
 }
 
-.section-heading{
+.section-heading {
   z-index: 100;
   font-size: 4.2rem;
   font-weight: bold;
-  color: #2D2A2A;
+  color: #2d2a2a;
   transition: 0.3s ease-in-out;
 }
 
 .section-heading:hover {
-  color: var(--hov-color);   
+  color: var(--hov-color);
 }
 
 @media only screen and (max-width: 992px) {
-
   .section-heading {
-      margin: 0;
-      z-index: 0;
-      font-size: 2.5rem;
-      color:var(--hov-color)
+    margin: 0;
+    z-index: 0;
+    font-size: 2.5rem;
+    color: var(--hov-color);
   }
+}
+
+svg {
+  pointer-events: none;
 }

@@ -1,13 +1,14 @@
-@import '../../../main/vars.css';
+@import "../../../main/vars.css";
 
 .Icon {
-    margin-left: 1rem;
-    margin-right: 1rem;
+  margin-left: 1rem;
+  margin-right: 1rem;
+  font-size: 1.5rem;
 }
 .tooltiptext {
-    display: none;
+  display: none;
 }
-  
+
 /* @media only screen and (max-width: 600px) {
     .Intro{
         margin-left: 0rem;
