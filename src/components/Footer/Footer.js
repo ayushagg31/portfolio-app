@@ -3,10 +3,7 @@ import classes from './Footer.module.css'
 import { Container, Row, Col } from 'reactstrap';
 import { AiFillGithub, AiFillLinkedin } from "react-icons/ai";
 import { MdEmail } from 'react-icons/md'
-
-const githubUrl = "https://github.com/ayushagg31"
-const linkedinUrl = "https://www.linkedin.com/in/ayushagg31/"
-const gmailId = "mailto: hello@ayushaggarwal.com"
+import { personalLinks as links } from '../../main/Data'
 
 const footer = (props) => {
     return (
@@ -25,11 +22,11 @@ const footer = (props) => {
                 </Col>
                 <Col className={["text-right d-none d-md-block", classes.icons].join(' ')}>
 
-                    <a rel={"noopener noreferrer"} target={"_blank"} href={githubUrl}
+                    <a id="redirect-github" rel={"noopener noreferrer"} target={"_blank"} href={links.githubUrl}
                     ><AiFillGithub /></a>
-                    <a rel={"noopener noreferrer"} target={"_blank"} href={linkedinUrl}
+                    <a id="redirect-linkedin" rel={"noopener noreferrer"} target={"_blank"} href={links.linkedinUrl}
                     ><AiFillLinkedin /></a>
-                    <a rel={"noopener noreferrer"} target={"_blank"} href={gmailId}
+                    <a id="redirect-email" rel={"noopener noreferrer"} target={"_blank"} href={links.gmailId}
                     ><MdEmail /></a>
                 </Col>
             </Row>

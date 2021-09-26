@@ -13,6 +13,7 @@ import backend from '../assets/images/npm.png'
 import db from '../assets/images/db.png'
 import ml from '../assets/images/ml.png'
 import python from '../assets/images/python.png'
+import design from '../assets/images/design.png'
 import scraping from '../assets/images/scraping.png'
 import competitive from '../assets/images/competitive.png'
 import linux from '../assets/images/linux.png'
@@ -20,15 +21,24 @@ import gcp from '../assets/images/gcp.png'
 import testing from '../assets/images/testing.png'
 
 
+const ResumeURL = "https://drive.google.com/file/d/1GVc1pU5xM8Sawiwm5vLVZ6M2YXCBmIbn/view?usp=sharing"
+
+const personalLinks = {
+     githubUrl : "https://github.com/ayushagg31",
+     linkedinUrl : "https://www.linkedin.com/in/ayushagg31/",
+     gmailId : "mailto: ayushagg.me@gmail.com"
+
+}
+
 const Experience = {
     Spinny: {
         title: 'Spinny',
-        designation: 'Software Engineer',
+        designation: 'SDE II - Frontend',
         location: 'Gurugram, Haryana, India',
         logo: Spinnylogo,
         duration: '(Jan \'21 - Present)',
         alt: 'Spinny',
-        specialization: 'Frontend, ReactJS, Javascript'
+        specialization: 'ReactJS, Javascript, Redux, Redux-Observale'
     },
     Hsbc: {
         title: 'HSBC Technology',
@@ -37,7 +47,7 @@ const Experience = {
         logo: HSBClogo,
         duration: '(July \'19 - Dec \'20)',
         alt: 'Hsbc',
-        specialization: 'Google Cloud Platform, JS, Python'
+        specialization: 'Google Cloud Platform, Javascript, Python'
     },
 
     Wipro: {
@@ -85,13 +95,15 @@ const Project = {
     A:
     {
         title: 'Trellis ',
-        description: `Trello Clone - Built using MERN stack. This project was created to experiment with my MERN stack skills. It's a tool for task management and project management. TDD practices are followed while developing and I'm constantly working on improving the code quality and adding new features.`,
+        description: `Trellis is a fully functioning task management Web App. The App supports personal Task Boards, allowing simple and organized task tracking that
+        separates overarching goals or topics from specific tasks. Trellis has both a minimal and clean UI inspired from Trello. The App has 80+ stars and 50+
+        forks on Github.`,
         img: trellis,
         links:
         {
-            github: 'https://github.com/ayushagg31/Trellis',
-            live: 'https://trellis-app.herokuapp.com',
-            video: 'https://drive.google.com/file/d/1eP41BKh8LLL7ScSnhGlSd3FJRKXazva3/view',
+            github: { url: 'https://github.com/ayushagg31/Trellis', analyticsKey: "trellis-github-redirect" },
+            live: { url: 'https://trellis-app.herokuapp.com', analyticsKey: "trellis-live-redirect" },
+            video: { url: 'https://drive.google.com/file/d/1eP41BKh8LLL7ScSnhGlSd3FJRKXazva3/view', analyticsKey: "trellis-video-redirect" },
         },
         tags: ['React', 'Redux', 'Node', 'Express', 'MongoDB', 'Jest']
     },
@@ -102,8 +114,8 @@ const Project = {
         img: portfolio,
         links:
         {
-            github: 'https://github.com/ayushagg31/portfolio-app',
-            live: 'https://ayushaggarwal.com/'
+            github: { url: 'https://github.com/ayushagg31/portfolio-app'},
+            live: { url: 'https://ayushaggarwal.com/'}
         },
         tags: ['ReactJS', 'NodeJS', 'Reactstrap']
     },
@@ -114,13 +126,11 @@ const Project = {
         img: drumkit,
         links:
         {
-            github: 'https://github.com/ayushagg31/Magical_music_instruments',
-            video: 'https://drive.google.com/file/d/0B52MPjpQNqjRcFYzX0llQWRWdzQ/view'
+            github: { url: 'https://github.com/ayushagg31/Magical_music_instruments' },
+            video: {url: 'https://drive.google.com/file/d/0B52MPjpQNqjRcFYzX0llQWRWdzQ/view', analyticsKey: "air-o-drum-video-redirect" },
         },
         tags: ['Python', 'OpenCV', 'Pygame']
     },
-
-
 }
 
 const Projectscroll = {
@@ -185,24 +195,29 @@ const Projectscroll = {
 
 const Skill = {
     A: {
-        skill: 'Web Development',
+        skill: 'Web Design & Development',
         img: Web,
-        info: 'HTML/CSS/JS'
+        info: 'HTML/CSS/Javascript'
     },
     B: {
         skill: 'Frontend Frameworks',
         img: frontend,
-        info: 'React/Redux'
+        info: 'React/Redux/Redux-Observable'
     },
-    J: {
-        skill: 'Backend Frameworks',
-        img: backend,
-        info: 'Node.js/Express.js/Mongoose'
+    Q: {
+        skill: 'UI/UX Design',
+        img: design,
+        info: 'Figma/Sketch/Zeplin'
     },
     K: {
         skill: 'Testing Frameworks',
         img: testing,
         info: 'Jest/Supertest/React-testing-library'
+    },
+    J: {
+        skill: 'Backend Frameworks',
+        img: backend,
+        info: 'Node.js/Express.js/Mongoose'
     },
     C: {
         skill: 'DBMS',
@@ -248,6 +263,8 @@ export {
     Education,
     Project,
     Projectscroll,
+    personalLinks,
+    ResumeURL,
     Skill
 };
 

@@ -1,72 +1,77 @@
-.Intro {    
-    /* margin: 0; */
-    position: relative;
-    /* top: 0;
-    left: 0; */
-    box-sizing: border-box;
-    margin-top: 5%;
-    /* margin-left: 14%;
-    margin-right: 14%; */
-    /* border: 1px solid white; */
-    /* max-height:vh; */
-    margin-left: -5%;
-    /* width: 100%; */
+.Intro {
+  position: relative;
+  box-sizing: border-box;
+  margin-top: 5%;
+  margin-left: -5%;
 }
 
- .ImgMe{
-    /* height: 50vh;
-    width: 50vh; */
-    /* float: center; */
-    width: 100%;
-    height: 50%;
-    /* margin-top: -15%; */
-    border: 1px solid green;
-} 
-
-
-.ImgCenter{
-    padding: 5% 10% 10% 10%;
-    /* overflow: hidden; */
-    margin: 0 auto; 
+.ImgMe {
+  width: 100%;
+  height: 50%;
+  border: 1px solid green;
 }
 
- .Intro img{
-    /* position: relative; */
-    border-radius: 50%;
-    width: 100%;
-    height: auto;
-    
-} 
+.ImgCenter {
+  padding: 5% 10% 10% 10%;
+  margin: 0 auto;
+}
 
- .Title {
-    width: 100%;
-    height: 20%;
-    text-align: center;
-    font-size: 2.1rem;
-    font-family: monospace;
-    margin-top: 8%;
+.Intro img {
+  border-radius: 50%;
+  width: 100%;
+  height: auto;
+}
+
+.button {
+  border-radius: 1.5rem;
+  text-align: center;
+  padding: 0 2rem;
+  display: block;
+  margin: 0 auto;
+  margin-top: 8%;
+  height: 3rem;
+  font-weight: bold;
+  cursor: pointer;
+  color: #dddddd;
+  background-color: black;
+}
+
+.button:hover {
+  color: var(--hov-color);
+}
+
+.button:focus {
+  outline: none;
+}
+
+.Title {
+  width: 100%;
+  height: 20%;
+  text-align: center;
+  font-size: 2.1rem;
+  font-family: monospace;
+  margin-top: 8%;
 }
 
 .Dev {
-    font-size: 1.2rem;
-    width: 100%;
-    /* height: 20%; */
-    font-family: monospace;
-    text-align: center;
-    margin-top: 3%;
-    
-} 
-.Pulse{
-    position: relative;
-    margin-top: 15%;
+  font-size: 1.2rem;
+  width: 100%;
+  /* height: 20%; */
+  font-family: monospace;
+  text-align: center;
+  margin-top: 3%;
+}
+.Pulse {
+  position: relative;
+  margin-top: 15%;
 }
 
 @media only screen and (min-width: 1200px) {
-    .Title {
-        font-size: 3rem;
-    }
+  .Title {
+    font-size: 3rem;
+  }
 
-    .Dev {
-        font-size: 1.5rem;
-    }
-    }
+  .Dev {
+    font-size: 1.5rem;
+  }
+}

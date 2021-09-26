@@ -142,7 +142,7 @@ class Contact extends Component {
                             <input ref={this.nameRef} className={classes.border} id="username" name="username" type="text" placeholder="Your Name" value={this.state.username} onChange={this.handleChange} />
                             <input ref={this.emailRef} className={classes.border} id="email" name="email" type="email" placeholder="What's your email?" value={this.state.email} onChange={this.handleChange} />
                             <textarea ref={this.msgRef} className={classes.textArea} id="message" name="message" type="text " placeholder="Your Message..." value={this.state.message} onChange={this.handleChange} />
-                            <button ref={this.btnRef} className={classes.submitButton} disabled={this.state.disabled}>
+                            <button ref={this.btnRef}  id="contact-form-submit-button" className={classes.submitButton} disabled={this.state.disabled}>
                                 <IconContext.Provider value={{ style: { verticalAlign: 'middle', marginRight: '10px' } }}>
                                     {this.state.icons}
                                 </IconContext.Provider>

@@ -13,7 +13,7 @@ import './preloader.scss'
 
 class app extends Component {
   state = {
-    loading: true
+    loading: false
   }
 
   componentDidMount = async () => {
@@ -58,7 +58,7 @@ class app extends Component {
 
   loaderTimeOut = () => {
     return new Promise((resolve) => {
-      setTimeout(() => resolve(), 2500)
+      setTimeout(() => resolve(), 1000)
     })
   }
 }
