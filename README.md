@@ -1,7 +1,6 @@
 # Personal Portfolio 
 [![website](https://img.shields.io/badge/website-up-%2338B2AC)](https://ayushaggarwal.com/)
-[![HitCount](http://hits.dwyl.com/ayushagg31/portfolio-app.svg)](http://hits.dwyl.com/ayushagg31/portfolio-app)
-[![todo](https://img.shields.io/badge/todo-7-red)]()
+[![Hits](https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fgithub.com%2Fayushagg31%2Fportfolio-app&count_bg=%2379C83D&title_bg=%23555555&icon=&icon_color=%23E7E7E7&title=hits&edge_flat=false)](https://hits.seeyoufarm.com)[![todo](https://img.shields.io/badge/todo-7-red)]()
 [![License: MIT](https://img.shields.io/badge/license-MIT-yellow.svg)](https://github.com/ayushagg31/portfolio-app/blob/master/LICENSE)
 [![LinkedIn](https://img.shields.io/badge/linkedin-connect-blue)](https://www.linkedin.com/in/ayush-aggarwal-b13a92120/)
 
