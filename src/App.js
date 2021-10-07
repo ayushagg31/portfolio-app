@@ -58,7 +58,7 @@ class app extends Component {
 
   loaderTimeOut = () => {
     return new Promise((resolve) => {
-      setTimeout(() => resolve(), 1300)
+      setTimeout(() => resolve(), 500)
     })
   }
 }
