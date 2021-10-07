@@ -3,8 +3,6 @@ import classes from './Intro.module.css'
 import Typical from 'react-typical'
 import profile from '../../assets/images/profile.jpg'
 import Icons from '../Icons/Icons'
-import { HiDocumentDownload } from 'react-icons/hi'
-import { IconContext } from "react-icons";
 import { bounce } from 'react-animations';
 import Radium, { StyleRoot } from 'radium';
 // import DownPulse from '../DownPulse/DownPulse'
@@ -57,10 +55,7 @@ const intro = (props) => {
                             </div>
                             <Icons />
                             <button id="download-resume" className={classes.button} onClick={()=> window.open(ResumeURL)}>
-                                <IconContext.Provider value={{ style: { verticalAlign: 'middle', marginRight: '10px' } }}>
-                                     <HiDocumentDownload size={20}/>
-                                </IconContext.Provider>
-                            Download Resume
+                            View Resume
                             </button>
                         </Col>
                     </Row>
