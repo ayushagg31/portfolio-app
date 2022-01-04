@@ -54,9 +54,9 @@ const intro = (props) => {
                                 />
                             </div>
                             <Icons />
-//                             <button id="download-resume" className={classes.button} onClick={()=> window.open(ResumeURL)}>
-//                             View Resume
-//                             </button>
+                          { /* <button id="download-resume" className={classes.button} onClick={()=> window.open(ResumeURL)}>
+                             View Resume
+                             </button> */}
                         </Col>
                     </Row>
                 </Container>
