@@ -35,7 +35,7 @@ const Experience = {
       PayPal: {
         title: 'PayPal',
         designation: 'Software Engineer II',
-        location: 'Bengaluru, Haryana, India',
+        location: 'Bengaluru, Karnataka, India',
         logo: PayPal,
         duration: '(Jan \'22 - Present)',
         alt: 'PayPal',
