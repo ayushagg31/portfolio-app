@@ -39,7 +39,7 @@ const Experience = {
         logo: PayPal,
         duration: '(Jan \'22 - Present)',
         alt: 'PayPal',
-        specialization: '-'
+        specialization: '---'
     },
     Spinny: {
         title: 'Spinny',
