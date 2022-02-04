@@ -9,9 +9,9 @@ const toggles = (props) => {
             <Container>
                 <Row className={"justify-content-center"}>
                     {/* <Col> */}
+                    <Toggle name={'PayPal'} clicked={props.clicked.bind(this, 'PayPal')} />
                     <Toggle name={'Spinny'} clicked={props.clicked.bind(this, 'Spinny')} />
                     <Toggle name={'HSBC'} clicked={props.clicked.bind(this, 'Hsbc')} />
-                    <Toggle name={'Wipro'} clicked={props.clicked.bind(this, 'Wipro')} />
                     {/* </Col> */}
                 </Row>
             </Container>
