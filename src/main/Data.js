@@ -1,6 +1,7 @@
 import Spinnylogo from '../assets/images/spinny.png'
 import HSBClogo from '../assets/images/HSBC.png'
 import Wiprologo from '../assets/images/wipro.png'
+import PayPal from '../assets/images/paypal.png'
 import NIT from '../assets/images/nit.png'
 import DAV from '../assets/images/dav.png'
 import trellis from '../assets/images/Trellis.png'
@@ -31,12 +32,20 @@ const personalLinks = {
 }
 
 const Experience = {
+      PayPal: {
+        title: 'PayPal',
+        designation: 'Software Engineer II',
+        location: 'Bengaluru, Haryana, India',
+        logo: PayPal,
+        duration: '(Jan \'22 - Present)',
+        alt: 'PayPal',
+    },
     Spinny: {
         title: 'Spinny',
         designation: 'SDE II - Frontend',
         location: 'Gurugram, Haryana, India',
         logo: Spinnylogo,
-        duration: '(Jan \'21 - Present)',
+        duration: '(Jan \'21 - Jan \'22)',
         alt: 'Spinny',
         specialization: 'ReactJS, Javascript, Redux, Redux-Observale'
     },
@@ -50,17 +59,17 @@ const Experience = {
         specialization: 'Google Cloud Platform, Javascript, Python'
     },
 
-    Wipro: {
-        title: 'Wipro Limited',
-        designation: 'Software Intern',
-        location: 'Bengaluru, Karnataka, India',
-        logo: Wiprologo,
-        duration: '(May \'18 - July \'18)',
-        alt: 'Wipro',
-        width: '60',
-        height: '40',
-        specialization: 'Shell Scripting, Ansible, Virtualization'
-    }
+//     Wipro: {
+//         title: 'Wipro Limited',
+//         designation: 'Software Intern',
+//         location: 'Bengaluru, Karnataka, India',
+//         logo: Wiprologo,
+//         duration: '(May \'18 - July \'18)',
+//         alt: 'Wipro',
+//         width: '60',
+//         height: '40',
+//         specialization: 'Shell Scripting, Ansible, Virtualization'
+//     }
 
 }
 
